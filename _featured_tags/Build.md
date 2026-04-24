@@ -5,5 +5,5 @@ slug: Build
 menu: true
 order: 2
 description: >
-  Build
+  The Pragmatic Build
 ---

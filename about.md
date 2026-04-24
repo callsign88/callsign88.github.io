@@ -2,11 +2,13 @@
 layout: about
 title: About
 description: >
-  **Callsign88** A Dev History ... Combining NETWORK Machine | Best Path&Route..
-  LangChain / Vector-store / Serpi API.. InfraStructure Forecast 
+  **A DEV History** Combine network machines to find the best Paths and Route, Process the latest LangChain and Vector Store, and used various like a Serpi API's and Infrastructure Forecast 
   
 menu: true
 order: 4
 ---
 
-**Callsign88** A Math History ... Rieman Hypothesis | Mersenne prime.. Stochastic / "God does not play dice".. Data Science - Bernoulli Trial 
+**Mathematical** Likes the Riemann Hypothesis and Mersen prime numbers, and "God does not play dice" by A.E and  Stochastic predictions. Data Science and Bernoulli Trial. 
+
+
+**https://velog.io/@callsign88/posts**
