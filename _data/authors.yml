@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 author1:
   name: callsign
-  email: callsign88@gmaii.com
+  email: callsign88@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -67,17 +67,15 @@ author1:
 
 # Another author (optional)
 author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
+  name:              callsign
+  email:             callsign88@gmail.com
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    The Pragmatic Programmers
 
-    Open `_data/authors.yml` to edit this text.
+
   picture:           https://placehold.it/128x128
   twitter:           <username>
-  github:            <username>
+  github:            <callsign88>
   accent_color:      '#268bd2'
   accent_image:
     background:      '#202020'
