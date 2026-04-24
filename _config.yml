@@ -223,7 +223,7 @@ remote_theme: qwtel/hydejack@gem
 #   admins:              <id>
 
 # Used on index and about sites
-social: callsign88
+social: 
    name:                <firstname> <lastname>
    links:
      - https://twitter.com/<username>
