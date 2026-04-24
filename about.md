@@ -11,4 +11,6 @@ order: 4
 **Mathematical** Likes the Riemann Hypothesis and Mersen prime numbers, and "God does not play dice" by A.E and  Stochastic predictions. Data Science and Bernoulli Trial. 
 
 
-**https://velog.io/@callsign88/posts**
+
+
+**https://velog.io/@callsign88/posts**(https://velog.io/@callsign88/posts)
