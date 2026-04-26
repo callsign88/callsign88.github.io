@@ -12,7 +12,7 @@ Connected 란 의미를 정확히 알지도 못한체 <a href="#">Network Machin
 
 > 대규모 Server System 이전 및 Network Backbone Switch의 작업으로 인해서 단계별 Scnario 와 Protocol을 확정하고 할당된 영역의 작업을 진행하고 있을 때 장애가 발생했다. 
 
-Network 장애와  **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+Network 장애와  **Network Fail** 순간적인 트래픽의 급증이 발생해서 Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
 ## Inline PROTOCOL elements
 
