@@ -49,11 +49,15 @@ The more stressed you allow yourself to become, the longer the outage will last.
 #### Actions 행동들
 구체적으로 추가해 진행해야할 행동`Actions`들에 대해 나열해본다. 
 
-// `Log Your Actions`(로그기록)
-// `Find Out What Changed`(직전에 변경된 사항들이 무엇인지) 
-// `Check the Physical Layer First!`(물리 Layer 단계부터 체크시작)
-// `Assume Nothing; Prove Everything`(단정짓지 말자) 
-// `Isolate the Problem`(문제는 분리해서 객관적인 시각으로)    
+//Log Your Actions`(로그기록)`
+
+//Find Out What Changed`(직전에 변경된 사항들이 무엇인지)`
+
+//Check the Physical Layer First!`(물리 Layer 단계부터 체크시작)`
+
+//Assume Nothing; Prove Everything`(단정짓지 말자)`
+
+//Isolate the Problem`(문제는 분리해서 객관적인 시각으로)`    
 
 
 
@@ -75,9 +79,9 @@ The more stressed you allow yourself to become, the longer the outage will last.
 
 1. Why Everything Is Messed Up `모든 것이 엉망인 이유 (이유가있다. 이해하자)`
 2. How to Sell Your Ideas to Management `경영진과의 관계(Ideas 판매)`
-3. When to Upgrade and Why `UPGRADE 의 시기와 이유 (비용집행의 정당성)` 
-4. The Dangers of Upgrading `UPGRADING 의 위험성 (작업의 책임과 무결성)`
-5. Valid Reasons to Upgrade  `UPGRADE 를 해야하는 유효성 (기술개선과 서비스적 효용)`
+3. When to Upgrade and Why `업그레이드의 시기와 이유 (비용집행의 정당성)` 
+4. The Dangers of Upgrading `업그레이딩의 위험성 (작업의 책임과 무결성)`
+5. Valid Reasons to Upgrade  `업그레이드를 해야하는 유효성 (기술개선과 서비스적 효용)`
 6. Why Change Control Is Your Friend  `변화가 너의 친구인 이유 (지금이 영원할수는 없다)`
 7. How Not to Be a Computer Jerk  `컴덕이 되지는 말자! (컴덕만큼이나 존재의 이유가 필요하다)`
 
