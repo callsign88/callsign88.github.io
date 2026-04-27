@@ -2,7 +2,7 @@
 layout: post
 title: Example content
 description: >
- [기본내용] DEV/Build Blog Post 오랜기안 작업하면서 정기점검이나 대규모 작업 장애에 대처하면서 발생한 각종 Coldcase에 대한 기록들 
+ [Default] DEV/Build Blog Post 오랜기안 작업하면서 정기점검이나 대규모 작업 장애에 대처하면서 발생한 각종 Coldcase에 대한 기록들 
 tags: [Dev]
 author: author2
 canonical_url: http://hyde.getpoole.com/2012/02/07/example-content/
@@ -12,101 +12,77 @@ Connected 란 의미를 정확히 알지도 못한체 <a href="#">Network Machin
 
 > 대규모 Server System 이전 및 Network Backbone Switch의 작업으로 인해서 단계별 Scnario 와 Protocol을 확정하고 할당된 영역의 작업을 진행하고 있을 때 장애가 발생했다. 
 
-Network 장애와  **Network Fail** 순간적인 트래픽의 급증이 발생해서 Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+Network 장애와  **Network Fail** 순간적인 트래픽의 급증이 발생해서 모든 Alarm Sign이 미친듯이 전송되고 손에서 진동이 멈추지 않았다. 하지만 어떤 것을 해야할지도 전혀 모른체 당황하고만 있었다.
 
-## Inline PROTOCOL elements
+## NETWORK WORK PROTOCOL
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+Network작업에 대한 Gary A. Donahue 의 "Network Warrior" 의 몇 가지 격언들이 생각나서 간단하게 내용을 기재해본다. [Developer Network](https://www.gad.net/).
 
-- **To bold text**, use `**To bold text**`.
-- *To italicize text*, use `*To italicize text*`.
-- Abbreviations, like HTML should be defined like this `*[HTML]: HyperText Markup Language`.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- ~~Deleted~~ text should use `~~deleted~~` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+- **Maxim#1:Network designs are based on Politics, Money,and The right way to do it—in that order.
+- **Maxim#2:Theonlyvalidreasonstochangeaproperlysizedpro-duction network are Simplification, Standardization, and Stabilization.
+- **Maxim#3: IT projects that lower costs, increase performance or capacity, or increase reliability.
 
-Most of these elements are styled by browsers with few modifications on our part.
 
-## Heading 2
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+이 격언들은 네트워크 업무를 수행하면서 한번 더 생각하게 하고 결정을 참고하는 많은 도움이 되었다. 
 
-### Heading 3
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
 
-#### Heading 4
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
+## Human Error 인적오류 
+Human error can be one of the hardest problems to track, and, once discovered,may
+be almost impossible to prove.
 
-##### Heading 5
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
+## Mutiple Componenet Faulure 다중 복합장애 
+Many networks are designed to avoid single points of failure.
 
-###### Heading 6
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
+## Disaster Chains 장애체인
+When one device fails, another device takes over.
 
-## Code
+## No Failover Testing 페일오버 테스트 부재 
+Had failover testing been done, the problem would have been found during testing
+andtheoutageavoided.
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+## Trouble Shooting 문제해결
+The best resolutions were the ones that happened quickly and weren’t necessitated by my mistakes..
 
-~~~js
-// Example can be run directly in your JavaScript console
+## Remain Calm 침착함
+The more stressed you allow yourself to become, the longer the outage will last.
 
-// Create a function that takes two arguments and returns the sum of those
-// arguments
-var adder = new Function("a", "b", "return a + b");
+## Actions 
+구체적으로 추가해 진행해야할 `Actions` 행동들에 대해 나열해본다. 
 
-// Call the function
-adder(2, 6);
-// > 8
-~~~
+// Log Your Actions
+
+// Find Out What Changed
+
+// Check the Physical Layer First!
+
+// Assume Nothing; Prove Everything
+
+// Isolate the Problem
+
+
 
 ## Lists
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+위에 더해서 추가적으로 사고적 측면과 경험치에서의 참고할만 목록들이라고나 할까 ...
 
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
+* Don’t Look for Zebras!
+* Do a Physical Audit.
+* Escalste.
+* Troubleshooting in a Team Environment.
+* The Janitor Princile. 
 
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+이런 경험적인 원칙들에 대해서 미리 생각해놓고 어떤 예기치 못한 상황에 직면하게 되었을 때 당황하지 말고 침착함을 유지하면서 단계별로 진행해나간다면 아주 이상적인 상황이 될 것이다. 현실은 그러하지 못하지만... 
 
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
 
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
 
-HyperText Markup Language (HTML)
-: The language used to describe and define the content of a Web page
+## Ends 
 
-Cascading Style Sheets (CSS)
-: Used to describe the appearance of Web content
+1. Why Everything Is Messed Up --- 모든 것이 엉망인 이유 
+2. How to Sell Your Ideas to Management --- 경영진과의 관계(Ideas 판매)
+3. When to Upgrade and Why --- UPGRADE 의 시기와 이유 (비용집행의 정당성) 
+4. The Dangers of Upgrading --- UPGRADING 의 위험성 (작업의 책임과 무결성)
+5. Valid Reasons to Upgrade --- UPGRADE 를 해야하는 유효성 (기술개선과 서비스적 효용 )
+6. Why Change Control Is Your Friend --- 변화가 너의 친구인 이유 (지금이 영원할수는 없다)
+7. How Not to Be a Computer Jerk --- 컴덕이 되지는 말자! (컴덕만큼이나 존재의 이유가 필요하다)
 
-JavaScript (JS)
-: The programming language used to build advanced Web sites and applications
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![800x400](https://placehold.it/800x400 "Large example image")
-![400x200](https://placehold.it/400x200 "Medium example image")
-![200x200](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-| Name     | Upvotes   | Downvotes |
-|:---------|:----------|:----------|
-| Alice    |        10 |        11 |
-| Bob      |         4 |         3 |
-| Charlie  |         7 |         9 |
-|==========|===========|===========|
-|Totals    |        21 |        23 |
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-*[HTML]: HyperText Markup Language
-*[CSS]: Cascading Style Sheets
-*[JS]: JavaScript
+지금까지 느낀 바이다. 
