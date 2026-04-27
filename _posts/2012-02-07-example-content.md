@@ -50,10 +50,15 @@ The more stressed you allow yourself to become, the longer the outage will last.
 구체적으로 추가해 진행해야할 행동`Actions`들에 대해 나열해본다. 
 
 *<sapn style="color:#80868b;">//Log Your Actions</sapn>*`(로그기록)`
-*<sapn style="color:#80868b;">//Find Out What Changed(직전에 변경된 사항들이 무엇인지)</sapn>*
-*<sapn style="color:#80868b;">//Check the Physical Layer First!(물리단계부터 시작)</sapn>*
-*<sapn style="color:#80868b;">//Assume Nothing; Prove Everything(단정짓지 말자)</sapn>*
-*<sapn style="color:#80868b;">//Isolate the Problem(문제는 분리해서 객관적인 시각으로)</sapn>*
+
+*<sapn style="color:#80868b;">//Find Out What Changed</sapn>*`(직전에 변경된 사항들이 무엇인지)`
+
+*<sapn style="color:#80868b;">//Check the Physical Layer First!</sapn>*`(물리단계부터 시작)`
+
+*<sapn style="color:#80868b;">//Assume Nothing; Prove Everything</sapn>*`(단정짓지 말자)`
+
+*<sapn style="color:#80868b;">//Isolate the Problem</sapn>*`(문제는 분리해서 객관적인 시각으로)`
+
 
 
 
