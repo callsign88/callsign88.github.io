@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example content
+title: Default Content
 description: >
  [Default] DEV/Build Blog Post 오랜기안 작업하면서 정기점검이나 대규모 작업 장애에 대처하면서 발생한 각종 Coldcase에 대한 기록들 
 tags: [Dev]
