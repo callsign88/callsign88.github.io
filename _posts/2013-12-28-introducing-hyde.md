@@ -1,48 +1,48 @@
 ---
 layout: post
-title: Introducing Hyde
+title: Introducing Blog
 description: >
-  Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content.
-tags: [hyde]
+  Blog 는 Dev/Build 2개 Two-column 의 Theme 로 구성되어 있다. Dev는 Blog의 간단한 소개 및 정의들.. Build는 여러 작업 환경에 관한 경험담에 관련된 complicated content 들이다. 
+tags: [Dev]
 author: author2
 canonical_url: http://hyde.getpoole.com/2013/12/28/introducing-hyde/
 ---
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+Blog의 페이지 자체는 Hyde의 Theme [Jekyll](http://jekyllrb.com) 를 치환해 사용했다. 초기에 MacBook 에서 setting을 진행하다 보니 자연스럽게 기존 Packages 를 사용하게 되었다. 참고 It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
-**NOTE**: This post is outdated and only included for legacy reasons.
-See the [Documentation][docs] for up-to-date instructions.
+**NOTE**: 이 post 는 최초 설치 및 설정 시에 전체 update 를 작성했고 이후에는 랜덤하게 생성해서 일관적이지 않을 수 있습니다.  
+관련 기록들은 문서를 [Documentation][docs] 참고해주세요.
 {:.message}
 
-### Built on Poole
+### Post DEV
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
+Dev는 블로그에 대한 간단한 정의들.. 여러 범주 Category 에 대한 각종 생각과 기록들... 그리고 그때 그때 독서와 저장할 수 있는 기록들을 통해서 전체적인 사고의 통합의 기록이다. 
 
-* Complete Jekyll setup included (layouts, config, [404]({{ '/404' | relative_url }}), [RSS feed]({{'/feed.xml' | relative_url }}){:.external}, posts, and [example page]({{ '/about/' | relative_url }}))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+* IT Engineering 에 대한 각종 posts, 그리고 기록들... [About]({{ '/about/' | relative_url }}))
+* 연관된 다양한 정보를 획득하면서 잊지 않기 위해서 저정한 정보들 
+* 개발 / 인프라 / 시스템&네트워크 / 데이터 / 보안 각 영역들에 대해서 기본적인 FACT들 
+* 추가로 이 영역을 확장해서 거시적이고 통합적인 Full-Stack 차원에서 바라볼 수 있는 시각의 힘 
+* Related Site 및 posts 의 기록들 ( 출처를 정확하게 해서.. ) 
+  
 
-### Hyde features
+### Post Build 
 
-In addition to the features of Poole, Hyde adds the following:
+In addition 게다가 추가로 각종 작업기록과 업무 특성상 주로 Over-night 철야로 획득한 경험들  
 
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/hyde#themes), available via `<body>` classes
+* 특정 기간동안 매주마다 새벽에 진행하는 점검 작업을 오랫동안 진행하고 나서 생긴 In hindsight 
+* 데이터센터 이전 작업과 그리고 지금의 DC 상황들 [Datacenter](https://google.com) 
+* [Network ](https://cisco.com), 작업들 그리고 기록들
 
-[Head to the readme](https://github.com/poole/hyde#readme) to learn more.
+[Velog](https://velog.io/@callsign88/series) 추가적인 개인기록
 
-### Browser support
+### A.I 
 
-Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+A.I 관련 도움이 될만한 각종 Site, 기록 들 그리고 Hades의 도구사용 및 Vibe Coding 관련.. AI와 대화한 각종 기록들... 연관된 API's 들 추가로 기술적 접근들이 필요한 사항들도 다소 기준이 무분별하지만 POST 추가했다. 
 
 ### Download
 
-Hyde is developed on and hosted with GitHub. Head to the [GitHub repository](https://github.com/poole/hyde) for downloads, bug reports, and features requests.
+Hyde is developed on and hosted with GitHub. Head to the [GitHub repository](https://github.com/poole/hyde) for downloads, bug reports, and features requests. ( Blog Theme 관련해서는 참고로 원문을 그대로 두었다. )
 
-Thanks!
+감사합니다. Thanks!
 
 [docs]: ../docs/7.5.2/index.md
