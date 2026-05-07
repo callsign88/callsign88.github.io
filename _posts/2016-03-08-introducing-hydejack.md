@@ -29,7 +29,7 @@ OSI 7Layer Level include:
 {:.message}
 
 ## Availabillity 가용성
-어떤 환경에서도 서비스가 정상적으로 유지될 수 있는지.. 이로 인해 IDC에 인프라를 설계했지만 IDC장애시에도 무용지물이 되었다. 카카오에 대한 [장애회고](https://www.youtube.com/watch?v=15giy9e72c4) 결국은 Multi-AZ 가용영역 /Failover /Auto Healing 자동복구
+어떤 환경에서도 서비스가 정상적으로 유지될 수 있는지.. 이로 인해 IDC에 인프라를 설계했지만 IDC장애시에도 무용지물이 되었다. 카카오에 대한 [장애회고](https://www.youtube.com/watch?v=k3tf_ngc4pc) 결국은 Multi-AZ 가용영역 /Failover /Auto Healing 자동복구
 
 ## Scalability 확장성 
 Traffic 증가에 대한 대응.. 40G BW로 설계했는데 순간적인 폭증으로 100G 이상의 트래픽이 몰린적도 있었고 C class 대역으로 할당했다가 IP설계가 충분하지 않은 상황도 발생했다. 결국에는 Horizontal scaling /Stateless /Cache 
@@ -81,9 +81,9 @@ DB: RDB vs NoSql Replication Sharding Backup
     
 
     ~~~yml
-    Log:
-    Metric: 
-    Trace: 
+    Log: 로그를 위한 로그를 찾기위해서 시간을 소비하면 안된다. 
+    Metric: 단위별로 빠른 확인이 되도록 
+    Trace: 영역에 따라 추적이 가능하게 
     ~~~
 
 3.  비용 Cost
