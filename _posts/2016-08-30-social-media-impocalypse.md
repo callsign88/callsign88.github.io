@@ -1,45 +1,46 @@
 ---
 layout: post
-title: Social Media Impocalypse (v4)
+title: Massive system Architecture
 description: >
-  Hydejack v4 adds *a lot* of social media icons and introduces a new default layout.
-  It also breaks things, hence a new major release number.
-tags: [hydejack]
+  도서 *가상면접 사례로 배우는 대규모 시스템 설계기초* 에서 정리된 내용과 참고할만한 사항들을 간단하게 정리했다.   
+tags: [Build]
 excerpt_separator: <!--more-->
 ---
 
-## Breaking
-* Structure of `_config.yml` has changed
-  * Social media usernames are now located under `author: social: <platform>: <username>`.
-  * `disqus` is now a top-level entry (moved from `author`).
-  * Now has `font`, `font_accent` and `google_fonts` fields that are mandatory.
-* Now defaults to the `blog` layout, old style is available via `blog-by-tag` layout, see `archive.html`.
+## Massive System 
+* 서버규모 확장 
+  * Server 규모가 증가하면 Scale up/out 에 대한 고려 
+  * DB다중화 대부분 `write`보다는`read` 상황에 맞는 설계
+  * Cache에 대한처리 동일호출/빈도에 참조되는 Eviction 정책
+* CDN Contents 전송에 대한 비용/기한/장애 대처방안 필수고려
 
 <!--more-->
 
-**NOTE**: This post is outdated and only included for legacy reasons.
-See the [Documentation][docs]{:.heading.flip-title} for up-to-date instructions.
+**NOTE**: 가상면접 사례로 배우는 대규모 시스템 설계기초 [인사이트](https://blog.insightbook.co.kr/2021/07/22/)
 {:.message}
 
-## New features
-* Added *a lot* of social media icons, configurable via `_config.yml`.
-* New `blog` layout. Classic, paginated.
-* Fonts are configurable via `_config.yml`.
+## Stateless 한 웹계층 
+* Session 에 대한 고려 Sticky Session 
+* Stateless 설계 - 단순 안전 규모확장이 쉬운 장점  
+* 적용된 설계안 참고 
 
-## Design
-* Link underlines are now fixed-sized for all font sizes (no thicker lines for headlines, etc)
+## DataCenter 데이터센터
+* 다중 데이터센터 아키텍처를 설계하기 위한 사항들
+* Routing 우회 /GeoDNS 
+* DB동기화 및 Deploy일관성 
 
-## Fixes
-* Correctly set the meta description field using either the `description` field or `post.excerpt` as a fallback (used
-  to contain the unmodified markdown).
-* Fixed various URL bugs relating to `site.baseurl`.
+## MQ MessageQue 
+* MQ 처리에 대한 고려 
+* 비동기적 처리 
 
-## Internal
-* Refactoring, preventing code duplications, heavier usage of `includes`.
+## Log, Metric, Automation 로그 메트릭 자동화 
+* Log 집합체 문제를 보다쉽게 
+* Metric 각종 지표들 수집  
+* 자동화 도구들 
 
 ***
 
-[Get *Social Media Impocalypse* on GitHub](https://github.com/qwtel/hydejack/releases)
+[See *System Design Interview* on Youtube](https://www.youtube.com/watch?v=i7twT3x5yv8)
 
 
 [docs]: ../docs/7.5.2/index.md
