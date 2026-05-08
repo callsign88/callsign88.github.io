@@ -2,7 +2,7 @@
 layout: post
 title: Algorithms to live by 알고리즘, 인생을 계산하다
 description: >
-  도서 *알고리즘, 인생을 계산하다* 일상의 모든 문제를 단숨에 해결하는 생각의  혁명 내용들에 대해서 다시 한번 정리해본다. 
+  도서 *알고리즘, 인생을 계산하다* 일상의 모든 문제를 단숨에 해결하는 생각의  혁명 이라는 부제가 있다.  내용들에 대해서 다시 한번 정리해본다. 
 tags: [Build]
 ---
 
@@ -17,36 +17,36 @@ tags: [Build]
 * 주차공간 선택 
 * 파트너 선택 
 * 연인의 뛰어들기 - 최적 멈춤 
-* 수학자 케플러가 첫부인 사망후에 11명의 여인을 만났고....멈춤
+* 수학자 케플러가 첫부인 사망후에 11명의 여인을 만났고...멈춤이 필요한데
 * 하지만 무정보Game의 함정이 있다. 
 
 
 ## 제2장: 탐색 vs 이용 (Explore / Exploit)
-* Multi-Armed Bandit 문제
+* Multi-Armed Bandit 문제 `생각하는 그 슬롯머신 막대기이다.`
 * 탐색과 활용의 균형
-* Gittins 지수
+* Gittins 지수 `생각할게 꽤 많은`
 * 이상적인 탐색 전략
-  영화 선택
-  ⦁음식 선택
+   영화 선택
+   음식 선택
 
 ## 제3장: 정렬하기 (Sorting)
 * 정렬 알고리즘의 개요
-  버블 정렬
-  삽입 정렬
-  병합 정렬
+   버블 정렬
+   삽입 정렬
+   병합 정렬
 * 규모의 비용
 * 정렬 전략
-  분할 정복 전략
-  버킷 정렬
+   분할 정복 전략
+   버킷 정렬
 
 ## 제4장: 캐싱 (Caching)
 
 * LRU 캐시
-*캐시 전략
-  Least Recently Used (LRU)
-  Most Recently Used (MRU)
+* 캐시 전략
+   Least Recently Used (LRU)
+   Most Recently Used (MRU)
 * 다중 레벨 캐시
-* 망각의 중요성 - 이건 life에서 필요하다 
+* 망각의 중요성 - `이건 life에서도 필요하다` 
  
 
 ## 제5장: 일정 계획 / 스케줄링 (Scheduling)
@@ -119,5 +119,5 @@ tags: [Build]
 
 ***
 
-[Get *JavaScripten* on GitHub](https://github.com/qwtel/hydejack/releases/tag/v7.5.2)
+[최적멈춤 GitHub](https://johngrib.github.io/wiki/problem/secretary/)
 
