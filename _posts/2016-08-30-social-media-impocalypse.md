@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Massive system Architecture
+title: Massive system Architecture 대규모 시스템 설계
 description: >
   도서 *가상면접 사례로 배우는 대규모 시스템 설계기초* 에서 정리된 내용과 참고할만한 사항들을 간단하게 정리했다.   
 tags: [Build]

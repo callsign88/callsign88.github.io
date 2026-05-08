@@ -1,25 +1,25 @@
 ---
 layout: post
-title: Infrastructure Architecture 
+title: Infrastructure Architecture 인프라설계
 description: >
   인프라 아키텍처에 대해서 OSI Level 계층별로 간단하게 정의하고 고려해야할 사항들에 대해서 다시한번 Reminder 해보려고한다. 문제 발생시에 항상 단계별로 접근해서 확인해야하는 기계적 행동반복과 이를 통해서 예기치 못한 사항에 대응할 수 있는 사전 모의 TEST와 같은 느낌이랄까.....[NETACAD](https://www.Netacad.com).
 tags: [Build]
 excerpt_separator: <!--more-->
 ---
 
-## Features
+## Infra Features
 Infra Architecture, 설계시에 OSI계층별로 고려해야할 사항들에 대해서 간력하게 단계별로 정리
 
 OSI 7Layer Level include:
 
 * Physical 계층 / Hardware 직접연결-이중화(Redundancy) 전원 회선 NIC & 그리고 성능용량 (Capacity)
 * DataLink 계층 / 네트워크 내부통신 MAC:VLAN:LOOP Avoidance
-* NETWORK 계층 / IP Address설계 Routing Firewall VPC etc....운영성 확장성 보안 
+* Network 계층 / IP Address설계 Routing Firewall VPC etc....운영성 확장성 보안 
 * Transport 계층 / TCP UDP LoadBalancer Connection관리
 * Session 계층 / Login API Session WEB Socket
 * Presentation 계층 /  TLS 암호화  DATA Format 성능최적화 
 * Application 계층 / 실서비스 WEB API DB Cache MQ 
-* 핵심고려사항 서비스연속성 Cache전략 DB설계 비동기처리 운영 배포 
+* 핵심고려사항 - 서비스연속성 Cache전략 DB설계 비동기처리 운영 배포 
 
 <!--more-->
 
@@ -29,7 +29,7 @@ OSI 7Layer Level include:
 {:.message}
 
 ## Availabillity 가용성
-어떤 환경에서도 서비스가 정상적으로 유지될 수 있는지.. 이로 인해 IDC에 인프라를 설계했지만 IDC장애시에도 무용지물이 되었다. 카카오에 대한 [장애회고](https://www.youtube.com/watch?v=k3tf_ngc4pc) 결국은 Multi-AZ 가용영역 /Failover /Auto Healing 자동복구
+어떤 환경에서도 서비스가 정상적으로 유지될 수 있는지.. 이로 인해 IDC에 인프라를 설계했지만 IDC장애시에도 무용지물이 되었다. 카카오에 대한 [장애회고](https://www.youtube.com/results?search_query=%EC%B9%B4%EC%B9%B4%EC%98%A4+%EC%9E%A5%EC%95%A0%ED%9A%8C%EA%B3%A0+) 결국은 Multi-AZ 가용영역 /Failover /Auto Healing 자동복구
 
 ## Scalability 확장성 
 Traffic 증가에 대한 대응.. 40G BW로 설계했는데 순간적인 폭증으로 100G 이상의 트래픽이 몰린적도 있었고 C class 대역으로 할당했다가 IP설계가 충분하지 않은 상황도 발생했다. 결국에는 Horizontal scaling /Stateless /Cache 

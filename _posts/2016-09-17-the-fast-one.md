@@ -16,7 +16,7 @@ tags: [Build]
 그리고 DB와 Storage, Caching에 대한 이해 MQ ... 
 
 ### 3부 시스템 설계 실전으로 들어가기 
-이를 바탕으로 실전 시스템 설계로 들어간다. 저자 Dhirendra Sinha는 Google에서 매니저로 재직중이고 분산시스템의 설계과 다양한 경험을 갖추었고 저자 Tejas Chopra는 Netflix 엔지니어로 머신러닝 및 소프트웨어 엔지니어링의 전문성이 있다고 한다. 이 경험을 기반으로 실제 X서비스 Instagram, Google DOCS, Netflix 등 실제사례를 기술한다.  
+이를 바탕으로 실전 시스템 설계로 들어간다. 저자 Dhirendra Sinha는 Google에서 매니저로 재직중이고 분산시스템의 설계과 다양한 경험을 갖추었고 저자 Tejas Chopra는 Netflix 엔지니어로 머신러닝 및 소프트웨어 엔지니어링의 전문성과 리더쉽을 보여주고 있다고 한다. 이 경험을 기반으로 실제 X서비스 Instagram, Google DOCS, Netflix 등 실제사례를 기술한다.  
 
 ## 분산시스템 속성 
 
