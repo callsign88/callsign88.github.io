@@ -2,13 +2,13 @@
 layout: post
 title: Default Content
 description: >
- [Default] DEV/Build Blog Post 오랜기안 작업하면서 정기점검이나 대규모 작업 장애에 대처하면서 발생한 각종 Coldcase에 대한 경험이나 기록들을 원칙으로 한다.  
+ [Default] DEV/Build Blog Post 오랜기간 작업하면서 정기점검이나 대규모 작업, 긴급장애에 대처하면서 발생한 각종 Coldcase에 대한 경험이나 기록들을 원칙으로 한다.  
 tags: [Dev]
 author: author2
 canonical_url: http://hyde.getpoole.com/2012/02/07/example-content/
 ---
 
-Connected 란 의미를 정확히 알지도 못한체 <a href="#">Network Machine</a>, 대규모 트래픽을  *Control&handling.* 하게 되었다. CLI cmd 하나가 어떤 치명적인 영향을 미칠지도 모른체... 수많은 LAN Cable 하나가 원인을 알수 없는 접촉불량과 손상으로 인해서 예기치 못한 장애가 발생했을 때 어떤 것을 해야할 지 도 모른체 
+Connected 란 의미를 정확히 알지도 못한체 <a href="#">Network Machine</a>, 대규모 트래픽을  *Control&handling* 하게 되었다. CLI cmd 하나가 어떤 치명적인 영향을 미칠지도 모른체... 수많은 LAN Cable 하나가 원인을 알 수 없는 접촉불량과 손상으로 인해서 예기치 못한 장애가 발생했을 때, 어떤 것을 해야할 지 도 모른체 
 
 > 대규모 Server System 이전 및 Network Backbone Switch의 작업으로 인해서 단계별 Scenario 와 Protocol을 확정하고 할당된 영역의 작업을 진행하고 있을 때 장애가 발생했다. 
 
@@ -16,7 +16,7 @@ Connected 란 의미를 정확히 알지도 못한체 <a href="#">Network Machin
 
 ## NETWORK WORK PROTOCOL
 
-Network작업에 대한 Gary A. Donahue 의 "Network Warrior" 의 몇 가지 격언들이 생각나서 간단하게 내용을 기재해본다. [Developer Network](https://www.gad.net/).
+Network 작업에 대한 Gary A. Donahue 의 저서 "Network Warrior" 의 몇 가지 격언들이 생각나서 간단하게 내용을 기재해본다. [Developer Network](https://www.gad.net/).
 
 - Maxim1. Network designs are based on ... and The right way to do it—in that order.
 - Maxim2. Network are Simplification, Standardization, and Stabilization.

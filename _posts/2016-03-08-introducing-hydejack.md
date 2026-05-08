@@ -2,15 +2,15 @@
 layout: post
 title: Infrastructure Architecture. 인프라설계
 description: >
-  인프라 아키텍처에 대해서 OSI Level 계층별로 간단하게 정의하고 고려해야할 사항들에 대해서 다시한번 Reminder 해보려고한다. 문제 발생시에 항상 단계별로 접근해서 확인해야하는 기계적 행동반복과 이를 통해서 예기치 못한 사항에 대응할 수 있는 사전 모의 TEST와 같은 느낌이랄까.....[NETACAD](https://www.Netacad.com).
+  인프라 아키텍처에 대해서 OSI Level 계층별로 간단하게 정의하고 고려해야할 사항들에 대해서 다시한번 Reminder 해보려고한다. 문제 발생시에 항상 단계별로 접근해서 확인해야하는 기계적 행동반복과 이를 통해서 예기치 못한 사항에 대응할 수 있는 사전 모의훈련과 같은 느낌이랄까.....[NETACAD](https://www.Netacad.com).
 tags: [Build]
 excerpt_separator: <!--more-->
 ---
 
 ## Infra Features
-Infra Architecture, 설계시에 OSI계층별로 고려해야할 사항들에 대해서 간력하게 단계별로 정리
+Infra Architecture, 설계시에 OSI계층별로 고려해야할 사항들에 대해서 간략하게 단계별로 정리
 
-OSI 7Layer Level include:
+OSI 7Layer Level `include:`
 
 * Physical 계층 / Hardware 직접연결-이중화(Redundancy) 전원 회선 NIC & 그리고 성능용량 (Capacity)
 * DataLink 계층 / 네트워크 내부통신 MAC:VLAN:LOOP Avoidance
@@ -43,12 +43,17 @@ OSI 7Layer Level include:
 ## Availabillity 가용성
 어떤 환경에서도 서비스가 정상적으로 유지될 수 있는지.. 이로 인해 IDC에 인프라를 설계했지만 IDC장애시에도 무용지물이 되었다. 카카오에 대한 [장애회고](https://www.youtube.com/results?search_query=%EC%B9%B4%EC%B9%B4%EC%98%A4+%EC%9E%A5%EC%95%A0%ED%9A%8C%EA%B3%A0+) 결국은 Multi-AZ 가용영역 /Failover /Auto Healing 자동복구
 
+{:.message}
+
 ## Scalability 확장성 
 Traffic 증가에 대한 대응... 40G B/W로 설계했는데 순간적인 폭증으로 100G 이상의 트래픽이 몰아친 적도 있었고 C class 대역으로 할당했다가 IP설계가 충분하지 않은 상황도 발생했다. 결국에는 Horizontal scaling /Stateless /Cache 에 대한 고민들이 남게 되었다. 
 
 대부분 서비스의 규모가 점차 팽창하고 성장하다 보면 기술부채가 생기기 마련이다. 기술부채로 인한 딜레마 상황에 빠지게 된다. 수평적 확장을 할 수있는 설계가 미리되어 있다면 좋겠지만 결국에는 길고 긴 Migration 작업을 거치게 된다. 
 
 수평적 확장이 가능하도록 Session Login 등등 Stateless 핵심조건인데 선구안적인 설계였다면 박수를 쳐주고 싶다. 하지만 현실은 쉽지 않다는...
+
+
+{:.message}
 
 ## Security 보안 
 
