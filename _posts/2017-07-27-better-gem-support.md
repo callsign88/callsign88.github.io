@@ -191,6 +191,7 @@ cat /var/log/suricata/eve.json | jq
 
 8️⃣ 사이버 킬 체인과 매핑
 ~~~
+🧩 전체 흐름
 단계 실습 내용 탐지 포인트
 Recon nmap 스캔 포트 스캔 alert
 Delivery curl 요청 비정상 트래픽
