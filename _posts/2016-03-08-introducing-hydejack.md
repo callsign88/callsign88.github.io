@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Infrastructure Architecture 인프라설계
+title: Infrastructure Architecture. 인프라설계
 description: >
   인프라 아키텍처에 대해서 OSI Level 계층별로 간단하게 정의하고 고려해야할 사항들에 대해서 다시한번 Reminder 해보려고한다. 문제 발생시에 항상 단계별로 접근해서 확인해야하는 기계적 행동반복과 이를 통해서 예기치 못한 사항에 대응할 수 있는 사전 모의 TEST와 같은 느낌이랄까.....[NETACAD](https://www.Netacad.com).
 tags: [Build]
