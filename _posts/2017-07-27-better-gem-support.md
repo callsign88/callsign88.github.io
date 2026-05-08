@@ -8,20 +8,11 @@ tags: [Build]
 
 GPT의 설명은 단순하게 저장&기록한 내용이다. 그대로 patse 한다. 
 
-## 사이버 킬 체인(Cyber Kill Chain)을 학습 방법
-
-Gmail	SH LEE <callsign88@gmail.com>
-sec
-SH LEE <callsign88@gmail.com>	2026년 5월 8일 오후 2:00
-받는사람: SH LEE <callsign88@gmail.com>
- 
-
-사이버 킬 체인(Cyber Kill Chain)을 학습 방법 
-
- 
+## 사이버 킬 체인(Cyber Kill Chain) 학습 방법
 
 🔐 1. 핵심 개념
 
+~~~
 Cyber Kill Chain 은 공격 과정을 7단계로 나눈 모델입니다:
 
 정찰 (Reconnaissance)
@@ -32,13 +23,14 @@ Cyber Kill Chain 은 공격 과정을 7단계로 나눈 모델입니다:
 명령 및 제어 (C2)
 목표 달성 (Actions on Objectives)
 
+~~~
 
  
 
 🖥️ 2. 실습 환경 구성 (가장 중요)
 
 
-
+~~~
 ✔️ 기본 구조 (가장 쉬운 구성)
 
 내 PC (호스트)
@@ -53,11 +45,13 @@ Metasploitable2 (연습용 취약 OS)
 👉 네트워크 설정:
 
 “Host-only” 또는 “Internal Network”
-→ 외부 인터넷과 완전히 분리
- 
+→ 외부 인터넷과 완전히 분리 
+
+~~~
 
 🧪 3. 실습 흐름 (안전한 범위에서 
 
+~~~
 ① 정찰 (Recon)
 
 대상 시스템이 어떤 상태인지 확인
@@ -95,7 +89,7 @@ Metasploitable2 (연습용 취약 OS)
 
 어떤 로그가 남는가?
 어떻게 탐지할 수 있는가?
- 
+~~~ 
 
 🧰 4. 실습을 더 현실적으로 만드는 방법
 
@@ -132,10 +126,7 @@ Kali는 “공격 도구 모음”일 뿐
 
 
 
-👉 네트워크 스캔 → 취약 서비스 식별 → 로그/트래픽 관찰 → Suricata로 탐지
-
-
-
+### 네트워크 스캔 → 취약 서비스 식별 → 로그/트래픽 관찰 → Suricata로 탐지
  
 
 🧩 전체 실습 구조
@@ -344,41 +335,17 @@ alert 메시지
 
 8️⃣ 사이버 킬 체인과 매핑
 
-단계
+- 단계 실습 내용 탐지 포인트
 
-실습 내용
+- Recon nmap 스캔 포트 스캔 alert
 
-탐지 포인트
+- Delivery curl 요청 비정상 트래픽
 
-Recon
+- Exploitation (생략, 대신 시뮬레이션) 패턴 탐지 
 
-nmap 스캔
+- C2 반복 요청 지속 트래픽
 
-포트 스캔 alert
-
-Delivery
-
-curl 요청
-
-비정상 트래픽
-
-Exploitation
-
-(생략, 대신 시뮬레이션)
-
-패턴 탐지
-
-C2
-
-반복 요청
-
-지속 트래픽
-
-Action
-
-트래픽 증가
-
-이상 징후
+- Action 트래픽 증가 이상 징후
 
  
 
@@ -399,11 +366,7 @@ SIEM 연동 (ELK Stack)
 
 
 
- 
-
-🧩 전체 구조 (Mini SOC 아키텍처)
-
- 
+### Mini SOC 아키텍처 (전체구조)
 
 [Kali Linux]  →  [Target 서버]
 
