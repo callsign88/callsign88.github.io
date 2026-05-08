@@ -190,13 +190,14 @@ cat /var/log/suricata/eve.json | jq
 ~~~ 
 
 8️⃣ 사이버 킬 체인과 매핑
-* 단계 실습 내용 탐지 포인트
-* Recon nmap 스캔 포트 스캔 alert
-* Delivery curl 요청 비정상 트래픽
-* Exploitation (생략, 대신 시뮬레이션) 패턴 탐지 
-* C2 반복 요청 지속 트래픽
-* Action 트래픽 증가 이상 징후
 ~~~
+단계 실습 내용 탐지 포인트
+Recon nmap 스캔 포트 스캔 alert
+Delivery curl 요청 비정상 트래픽
+Exploitation (생략, 대신 시뮬레이션) 패턴 탐지 
+C2 반복 요청 지속 트래픽
+Action 트래픽 증가 이상 징후
+
 🎯 핵심 요약
 Kali = 공격 도구 실습용
 Suricata = 탐지 실습 핵심 - 진짜 중요한 건 👉 “로그를 읽는 능력”
