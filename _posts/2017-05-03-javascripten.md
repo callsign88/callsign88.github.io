@@ -2,11 +2,11 @@
 layout: post
 title: Algorithms to live by. 알고리즘, 인생을 계산하다
 description: >
-  도서 *알고리즘, 인생을 계산하다* 일상의 모든 문제를 단숨에 해결하는 생각의  혁명 이라는 부제가 있다.  내용들에 대해서 다시 한번 정리해본다. 
+  도서  *알고리즘, 인생을 계산하다*  일상의 모든 문제를 단숨에 해결하는 생각의 혁명 이라는 부제가 있다.  내용들에 대해서 다시 한번 정리해본다. 
 tags: [Build]
 ---
 
-도서는 2018년에 발간되었으니 꽤 시간이 흘렀다. 오랜 시간을 옆에두고 천천히 읽고 있는 중이다. 완독하고 정독하고 기억이 나면 다시 훑어보고 하지만 책을 위한 책을 읽기 위해서 진입장벽이 높다고 해야할까 ? 꽤 사전 확인한 지식들이 많이 있다. 생각이 날때마다 한번 씩 천천히 정리해보려고 한다. [도서](https://www.chungrim.com/bbs/board.php?bo_table=m02_01&wr_id=285)
+도서는 2018년에 발간되었으니 꽤 긴 시간이 흘렀다. 오랜 시간을 옆에 두고 지금도 천천히 읽고 있는 중이다. 완독하고 정독하고 기억이 나면 다시 훑어보고 하지만 책을 위한 책을 읽기 위해서 진입장벽이 높다고 해야할까? 꽤 사전 확인해야할 지식들이 많이 있다. 생각이 날때마다 한번 씩 천천히 정리해보려고 한다. [도서](https://www.chungrim.com/bbs/board.php?bo_table=m02_01&wr_id=285)
 
 ## 제1장: 최적 멈춤 (Optimal Stopping)
 
@@ -119,5 +119,6 @@ tags: [Build]
 
 ***
 
-[최적멈춤 GitHub](https://johngrib.github.io/wiki/problem/secretary/)
+[최적멈춤 GitHub](https://johngrib.github.io/wiki/problem/secretary/)추가로 참고할만한 사이트를 출처겸 기재한다.
+
 
