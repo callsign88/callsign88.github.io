@@ -2,7 +2,7 @@
 layout: post
 title: Massive system Architecture. 대규모 시스템 설계
 description: >
-  도서 *가상면접 사례로 배우는 대규모 시스템 설계기초* 에서 정리된 내용과 참고할만한 사항들을 간단하게 정리했다.   
+  도서  *가상면접 사례로 배우는 대규모 시스템 설계기초*  에서 정리된 내용과 참고할만한 사항들을 간단하게 정리했다.   
 tags: [Build]
 excerpt_separator: <!--more-->
 ---
@@ -40,7 +40,7 @@ excerpt_separator: <!--more-->
 
 ***
 
-[See *System Design Interview* on Youtube](https://www.youtube.com/watch?v=i7twT3x5yv8)
+[See *System Design Interview* on Youtube](https://www.youtube.com/watch?v=i7twT3x5yv8)유튜브참고영상
 
 
 [docs]: ../docs/7.5.2/index.md
