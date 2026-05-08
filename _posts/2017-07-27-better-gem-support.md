@@ -11,7 +11,6 @@ tags: [Build]
 ## 사이버 킬 체인(Cyber Kill Chain) 학습 방법
 
 🔐 1. 핵심 개념
-
 ~~~
 Cyber Kill Chain 은 공격 과정을 7단계로 나눈 모델입니다:
 
@@ -40,8 +39,7 @@ Metasploitable2 (연습용 취약 OS)
 👉 네트워크 설정:
 “Host-only” 또는 “Internal Network”→외부 인터넷과 완전히 분리 
 ~~~
-
-🧪 3. 실습 흐름 (안전한 범위에서 
+🧪 3. 실습 흐름 (안전한 범위에서) 
 ~~~
 ① 정찰 (Recon)
 대상 시스템이 어떤 상태인지 확인
@@ -58,14 +56,12 @@ Metasploitable2 (연습용 취약 OS)
 외부에서 제어 가능 상태
 👉 보안 관점:이상 트래픽 탐지,백도어 탐지
  
-
 ④ 목표 달성
 데이터 접근, 권한 상승 등
 👉 여기서 중요한 질문:어떤 로그가 남는가?,어떻게 탐지할 수 있는가?
 ~~~ 
 
 🧰 4. 실습을 더 현실적으로 만드는 방법
- 
 ~~~
 ✔️ 로그 분석 추가
 공격만 하지 말고 “탐지”도 같이 진행
@@ -75,7 +71,6 @@ ex>:리눅스 로그 (/var/log),IDS (Snort 같은 것)
 ✔️ 블루팀 관점 같이 보기
 공격 → 방어 같이 해야 실력이 빨리 늘어요
 ~~~ 
-
 ⚠️ 5. 절대 하면 안 되는 것
 ~~~
 실제 서버 공격 ❌
@@ -102,7 +97,6 @@ Kali는 “공격 도구 모음”일 뿐 실습구조는
 네트워크: Internal Network (외부 차단)
 ~~~
  
-
 1️⃣ 환경 준비 (CMD 기준)
 ~~~
 ✔️ Kali에서 IP 확인
@@ -133,10 +127,7 @@ sudo suricata -c /etc/suricata/suricata.yaml -i eth0
 ~~~
 cd /var/log/suricata
 ls
-중요 파일:
-
-fast.log (간단 알림)
-eve.json (상세 로그)
+중요 파일: fast.log (간단 알림) eve.json (상세 로그)
 ~~~ 
 
 3️⃣ Recon 단계 (정찰) + 탐지
@@ -157,19 +148,15 @@ Suricata는 패턴 기반으로 탐지
 4️⃣ 서비스 식별 (Enumeration) 
 ~~~
 nmap -sV 192.168.56.20
-
-👉 서비스 버전 확인
-예:HTTP SMB FTP
+👉 서비스 버전 확인  예:HTTP SMB FTP
 
 ✔️ Suricata에서 다시 확인
-tail -f eve.json
-👉 JSON 로그 → 실제 SOC 환경 느낌
+tail -f eve.json 👉 JSON 로그 → 실제 SOC 환경 느낌
 ~~~ 
 
 5️⃣ “취약 행동 시뮬레이션” (안전한 방식)
 ~~~
-여기서부터는 실제 익스플로잇 대신
-👉 “이상 행동”을 만들어 탐지 연습
+여기서부터는 실제 익스플로잇 대신 👉 “이상 행동”을 만들어 탐지 연습
 
 ✔️ 예: 웹 요청 반복 (비정상 트래픽)
 for i in {1..100}; do curl http://192.168.56.20; done
@@ -179,7 +166,6 @@ for i in {1..100}; do curl http://192.168.56.20; done
 tail -f fast.log
 ~~~
  
-
 6️⃣ Suricata Rule 추가 (핵심🔥)
 ~~~
 ✔️ 룰 파일 열기
@@ -193,8 +179,7 @@ sudo pkill suricata
 sudo suricata -c /etc/suricata/suricata.yaml -i eth0
 
 ✔️ 다시 curl 실행
-curl http://192.168.56.20
-👉 결과:fast.log에 alert 발생
+curl http://192.168.56.20 👉 결과:fast.log에 alert 발생
 ~~~ 
 
 7️⃣ 로그 분석 (블루팀 핵심)
@@ -205,18 +190,16 @@ cat /var/log/suricata/eve.json | jq
 ~~~ 
 
 8️⃣ 사이버 킬 체인과 매핑
+* 단계 실습 내용 탐지 포인트
+* Recon nmap 스캔 포트 스캔 alert
+* Delivery curl 요청 비정상 트래픽
+* Exploitation (생략, 대신 시뮬레이션) 패턴 탐지 
+* C2 반복 요청 지속 트래픽
+* Action 트래픽 증가 이상 징후
 ~~~
-- 단계 실습 내용 탐지 포인트
-- Recon nmap 스캔 포트 스캔 alert
-- Delivery curl 요청 비정상 트래픽
-- Exploitation (생략, 대신 시뮬레이션) 패턴 탐지 
-- C2 반복 요청 지속 트래픽
-- Action 트래픽 증가 이상 징후
-
 🎯 핵심 요약
 Kali = 공격 도구 실습용
-Suricata = 탐지 실습 핵심
-진짜 중요한 건 👉 “로그를 읽는 능력”
+Suricata = 탐지 실습 핵심 - 진짜 중요한 건 👉 “로그를 읽는 능력”
  
 👉 다음 단계 추천
 Snort vs Suricata 비교
@@ -230,7 +213,7 @@ SOC 아키텍처 도식화
 ~~~
 [Kali Linux]  →  [Target 서버]
 
-      │              │
+      │               │
       └──── 트래픽 ────┘
               ↓
         [Suricata IDS]
@@ -242,11 +225,7 @@ SOC 아키텍처 도식화
           [Kibana]
 
 사용 스택:
-IDS: Suricata
-SIEM: ELK Stack
-Elasticsearch
-Logstash
-Kibana
+IDS:Suricata/SIEM:ELK Stack/Elasticsearch/Logstash/Kibana
 ~~~ 
 
 1️⃣ VM 구성 (필수)
@@ -288,8 +267,7 @@ sudo systemctl start elasticsearch
 sudo systemctl enable elasticsearch
 
 ✔️ 확인
-curl http://localhost:9200
-👉 JSON 나오면 성공
+curl http://localhost:9200 👉 JSON 나오면 성공
 ~~~
  
 4️⃣ Logstash 설정 (핵심🔥)
@@ -341,7 +319,6 @@ sudo systemctl enable kibana
 ~~~
  
 6️⃣ Kibana 설정 (처음 1번만)
-
 ~~~
 “Discover” 이동 / Index Pattern 생성
 👉 입력:suricata-logs*
@@ -367,8 +344,7 @@ alert 메시지
 ✔️ 시각화 만들기
 Top source IP
 Most attacked ports
-Alert count
-👉 이게 실제 SOC 화면 느낌
+Alert count 👉 이게 실제 SOC 화면 느낌
 ~~~
  
 9️⃣ Suricata 룰 추가 → SOC 강화
@@ -421,24 +397,20 @@ Zeek 추가 분석
 
 ### ELK 기반 SIEM 구축
 
-👉 명령어(CMD) 중심 + 왜 하는지 한 줄 설명 방식
-(환경: Ubuntu SOC서버 1EA기준/Suricata는 이미 로그 생성 중 가정)
-
+👉 CMD중심+ 환경:Ubuntu SOC서버 1EA기준/Suricata는 이미 로그생성중 가정
  
 🧩 전체 흐름 
 ~~~
-👉 Suricata → Logstash → Elasticsearch → Kibana
+Suricata → Logstash → Elasticsearch → Kibana
 ~~~
 
 0️⃣ 사전 확인 (중요)
 ~~~
 ✔️ Suricata 로그 있는지 확인
-ls /var/log/suricata/
-👉 eve.json 있어야 정상
+ls /var/log/suricata/ 👉 eve.json 있어야 정상
 
 ✔️ 실시간 로그 확인
-tail -f /var/log/suricata/eve.json
-👉 JSON 나오면 OK
+tail -f /var/log/suricata/eve.json 👉 JSON 나오면 OK
 ~~~
  
 1️⃣ Elasticsearch (저장소) 설치
@@ -450,9 +422,9 @@ sudo apt install elasticsearch -y
 ✔️ 설정 수정
 sudo nano /etc/elasticsearch/elasticsearch.yml
 👉 아래 추가/수정:
+
 network.host: 0.0.0.0
 discovery.type: single-node
-
 👉 의미:외부 접속 허용, 단일 노드 모드
 
 ✔️ 실행
@@ -565,10 +537,8 @@ src_ip:192.168.56.10
 ~~~
 ❌ 데이터 안 보임 curl localhost:9200/_cat/indices?v
 👉 인덱스 없으면: → Logstash 문제
-
 ❌ Logstash 문제
 sudo systemctl status logstash 
-
 ❌ Suricata 문제
 ps aux | grep suricata
 ~~~
