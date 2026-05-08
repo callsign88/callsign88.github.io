@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms to live by 알고리즘, 인생을 계산하다
+title: Algorithms to live by. 알고리즘, 인생을 계산하다
 description: >
   도서 *알고리즘, 인생을 계산하다* 일상의 모든 문제를 단숨에 해결하는 생각의  혁명 이라는 부제가 있다.  내용들에 대해서 다시 한번 정리해본다. 
 tags: [Build]
@@ -26,25 +26,25 @@ tags: [Build]
 * 탐색과 활용의 균형
 * Gittins 지수 `생각할게 꽤 많은`
 * 이상적인 탐색 전략
-     영화 선택
-     음식 선택
+     - 영화 선택
+     - 음식 선택
 
 ## 제3장: 정렬하기 (Sorting)
 * 정렬 알고리즘의 개요
-     버블 정렬
-     삽입 정렬
-     병합 정렬
+     - 버블 정렬
+     - 삽입 정렬
+     - 병합 정렬
 * 규모의 비용
 * 정렬 전략
-     분할 정복 전략
-     버킷 정렬
+     - 분할 정복 전략
+     - 버킷 정렬
 
 ## 제4장: 캐싱 (Caching)
 
 * LRU 캐시
 * 캐시 전략
-     Least Recently Used (LRU)
-     Most Recently Used (MRU)
+     - Least Recently Used (LRU)
+     - Most Recently Used (MRU)
 * 다중 레벨 캐시
 * 망각의 중요성 `이건 life에서도 필요하다` 
  
@@ -63,8 +63,8 @@ tags: [Build]
 * 사전 확률과 사후 확률
 * 증거 업데이트
 * 예측 및 추론 방법
-      의료 진단
-      스팸 필터링
+      - 의료 진단
+      - 스팸 필터링
  
 
 ## 제7장: 과적합 (Overfitting)
@@ -79,8 +79,8 @@ tags: [Build]
 
 * Lagrangian Relaxation
 * 불가능한 문제의 근사 해결
-    시뮬레이티드 애닐링
-    유전 알고리즘
+      - 시뮬레이티드 애닐링
+      - 유전 알고리즘
 * 제약조건 완화 전략
  
 
