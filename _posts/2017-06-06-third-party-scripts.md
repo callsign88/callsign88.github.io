@@ -1,73 +1,170 @@
 ---
 layout: post
-title: Third Party Scripts (v6.3)
+title: Statistics 통계의 아름다음
 description: >
-  Hydejack v6.3 makes including third party plugins easier.
-tags: [hydejack]
+  The Beauty of Statistics : 인공지능 시대에 필요한 과학적 사고
+tags: [Build]
 ---
 
-This release makes including third party plugins easier.
-Until now, the push state approach to loading new pages has been interfering with embedded `script` tags.
-This version changes this by simulating the sequential loading of script tags on a fresh page load.
+통계의 아름다움.. 꼭 읽어볼만한 도서이다. 저자는 "독자가 중학교 수학정도의 기초를 가지고 있다는 가정 하에 작성되었다" 라고 하지만 실제로는 통계적 사고방식과 빅데이터 응용 실무의 소개에 좀 더 초점이 되어있어 사전적 지식이 꽤 필요한 상황이다. 1.1장 스토캐스틱 Stochastic 세상 부터 생각할 대목이 많아진다.  `도서`(https://jpub.tistory.com/1100)
 
-This approach should work in a majority of cases, but can still cause problems with scripts that can't be added more than once per page.
-If an issue can't be resolved, there's now the option to disable push state by setting `disable_push_state: true` in `config.yml`.
+1.1.2 신은 주사위를 던지는가? 에서는 이제 현대물리학 양자역학의 역사 발전 초기로 올라가 기술적 문해력을 요구하는 수준의 서사와 맥락으로 상황이 전개가 된다. AI와 담론을 나누며 배경적 지식을 이해하는 것이 더 빠를지도 모르는 상황... 아직도 깊이있게 이해해야 항목들이 많아서 Progressive update는 요원하다. `동전을 던지는 수학자들` 
 
-## What's happening?
-The problem is as follows:
-When the browser encounters a `script` tag while parsing a HTML page it will stop (possibly to make a request to fetch
-an external script) and then execute the code before continuing parsing the page
-(it's easy to how this can make your page really slow, but that's a different topic).
 
-In any case, due of this behavior you can do things like include jQuery,
-then run code that depends on jQuery in the next script tag:
+## 1장 통계와 과학 1
 
-~~~html
-<script src=".../jquery.js"></script>
-<script>
-  $('#tabs').someJQueryFunction(); // works
-</script>
-~~~
+### 1.1 스토캐스틱 세상 4
+* 1.1.1 포켓볼 치는 물리학자 4
+* 1.1.2 신은 주사위를 던지는가? 7
+* 1.1.3 연쇄살인범의 체포 11
+* 1.1.4 동전을 던지는 수학자들 14
 
-I'd consider this an anti-pattern for the reason mentioned above,
-but it remains common and has the advantage of being easy to understand.
+### 1.2 확률의 이해 18
+* 1.2.1 게임 상금의 배분 18
+* 1.2.2 6연속 숫자와 14연속 숫자 22
+* 1.2.3 사회자 뒤의 염소 25
+* 1.2.4 실종된 잠수함을 찾아라 29
 
-However, things break when Hydejack dynamically inserts new content into the page.
-It works fine for standard markdown content like `p` tags,
-but when inserting `script` tags the browser will execute them immediately and in parallel,
-because in most cases this is what you'd want.
-However, this means that `$('#tabs').someJQueryFunction();` will run while the HTTP request for jQuery is still
-in progress --- and we get an error that `$` isn't defined, or similar.
+### 1.3 통계적 사고와 모델 32
+* 1.3.1 차를 맛보는 여인 32
+* 1.3.2 ‘쓰레기 같은 남자’ 꺼져 37
+* 1.3.3 식스시그마의 기적 40
+* 1.3.4 뉴턴의 사과 43
 
-From this description the solution should be obvious: Insert the `script` tags one-by-one,
-to simulate how they would get executed if it was a fresh page request.
-In fact this is how Hydejack is now handling things (and thanks to rxjs' `concatMap` it was easy to implement),
-but unfortunately this is not a magic solution that can fix all problems:
+### 1.4 통계와 과학 45
+* 1.4.1 지다성과 신기군사 45
+* 1.4.2 딥블루와 알파고 48
+* 1.4.3 중약과 양약 51
+* 1.4.4 모든 모델은 잘못되었다 55
 
-* Some scripts may throw when running on the same page twice
-* Some scripts rely on the document's `load` event, which has fired long before the script was inserted
-* unkown-unkowns
+## 2장 데이터와 수학 59
 
-But what will "magically" solve all third party script problems, is disabling dynamic page loading altogether,
-for which there's now an option.
-To make this a slightly less bitter pill to swallow,
-there's now a CSS-only "intro" animation that looks similar to the dynamic one.
-Maybe you won't even notice the difference.
+### 2.1 데이터와 공간 62
+* 2.1.1 다차원 세계의 벌레 62
+* 2.1.2 매트릭스와 트랜스포머 66
+* 2.1.3 구장산술과 선형방정식 71
+* 2.1.4 이십팔수와 황도십이궁 74
 
-## Patch Notes
-### Minor
-* Support embedding `script` tags in markdown content
-* Add `disable_push_state` option to `_config.yml`
-* Add `disable_drawer` option to `_config.yml`
-* Rename syntax highlighting file to `syntax.scss`
-* Added [chapter on third party scripts][scripts] to documentation
+### 2.2 확률변수와 분포 79
+* 2.2.1 베르누이의 동전 79
+* 2.2.2 몇 번의 만남과 신기한 37 83
+* 2.2.3 드무아브르의 정규분포 86
+* 2.2.4 술고래의 걸음걸이 89
 
-### Design
-* Add subtle intro animation
-* Rename "Check out X for more" to "See X for more" on welcome\* page
-* Replace "»" with "→" in "read more"-type of links
+### 2.3 데이터 알아가기 91
+* 2.3.1 테세우스의 배 91
+* 2.3.2 성별부터 체중까지 93
+* 2.3.3 만 나이와 일반 나이 96
+* 2.3.4 신체검사 기록표 100
 
-### Fixes
-* Fix default color in gem-based theme
+### 2.4 수리통계의 기초 102
+* 2.4.1 관중규표와 일엽지추 102
+* 2.4.2 악질 도박꾼의 계략 105
+* 2.4.3 평균화된 급여 108
+* 2.4.4 소이비도와 공작 깃 112
 
-[scripts]: ../docs/7.5.2/scripts.md
+## 3장 데이터 시각화 117
+
+### 3.1 역사 속 통계 그래프 120
+* 3.1.1 하도와 낙서 120
+* 3.1.2 런던 콜레라 방역 121
+* 3.1.3 나이팅게일의 장미 123
+* 3.1.4 나폴레옹 원정 126
+
+### 3.2 데이터와 시각화 129
+* 3.2.1 여왕의 드레스 129
+* 3.2.2 캔버스와 화선지 131
+* 3.2.3 심수 왕자와 다래끼 화가 134
+* 3.2.4 우주왕복선 ‘챌린저호’ 137
+
+### 3.3 기초 통계 그래프 140
+* 3.3.1 올드 페이스풀 간헐천의 비밀 140
+* 3.3.2 통계 그래프의 창시자 142
+* 3.3.3 오래된 국가의 시운 145
+* 3.3.4 비상하는 모션 차트 148
+
+### 3.4 데이터 간의 관계 150
+* 3.4.1 포리마의 궤도 150
+* 3.4.2 50개 주의 최고봉 153
+* 3.4.3 타이타닉호의 생존자 156
+* 3.4.4 체르노프의 얼굴 158
+
+## 4장 모델과 방법 161
+
+### 4.1 자주 쓰는 통계 모델 164
+* 4.1.1 천양과 사조 164
+* 4.1.2 차원축소 공격 168
+* 4.1.3 고객은 왕 173
+* 4.1.4 주식의 동향 177
+
+### 4.2 머신러닝 181
+* 4.2.1 맥주와 기저귀의 전설 181
+* 4.2.2 ‘엄친딸’ 찾기 185
+* 4.2.3 차라리 잘못 죽이는 것과 절대 놓치지 않는 것 188
+* 4.2.4 나무와 숲 194
+
+### 4.3 인공지능 201
+* 4.3.1 인공지능의 2전 3기 201
+* 4.3.2 딥러닝의 전생과 현재 204
+* 4.3.3 신비로운 신경 207
+* 4.3.4 아름다운 필터 212
+
+### 4.4 그 외의 분석 방법 217
+* 4.4.1 차, 술, 펩시콜라 217
+* 4.4.2 몬테카를로와 원자폭탄 222
+* 4.4.3 의사의 필적 224
+* 4.4.4 사막의 나비 229
+
+## 5장 빅데이터 시대 233
+
+### 5.1 기술의 변천사 236
+* 5.1.1 통계학의 기원 236
+* 5.1.2 정보 시대의 도래 238
+* 5.1.3 데이터 마이닝과 비즈니스 인텔리전스 241
+* 5.1.4 빅데이터 시대의 신기원 243
+
+### 5.2 분석 도구 247
+* 5.2.1 누가 풋내기는 데이터 분석을 할 줄 모른다고 했는가? 247
+* 5.2.2 자웅을 겨루는 분석 소프트웨어 250
+* 5.2.3 풀스택 개발자의 최애 254
+* 5.2.4 필자가 가장 사랑하는 R 256
+
+### 5.3 컴퓨팅 프레임워크 260
+* 5.3.1 냉장고 속 코끼리 260
+* 5.3.2 병사 지휘와 장수 지휘 263
+* 5.3.3 전기 호랑이와 전기 개미 266
+* 5.3.4 무어의 법칙의 미래 270
+
+### 5.4 빅데이터 업계의 응용 274
+* 5.4.1 인터넷의 부흥 274
+* 5.4.2 트래픽의 시작점 276
+* 5.4.3 소득의 출처 278
+* 5.4.4 좋아할 만한 상품과 비위 맞추기 282
+
+## 6장 데이터의 함정 287
+
+### 6.1 나뭇잎에 가려 숲을 보지 못하다 290
+* 6.1.1 신기한 전갈자리 290
+* 6.1.2 승자의 저주 292
+* 6.1.3 비행기를 격추하는 유가 295
+* 6.1.4 여신과의 인연 297
+
+### 6.2 상관과 인과 300
+* 6.2.1 방화와 뜨거운 음료 300
+* 6.2.2 인기 게시물의 비밀 302
+* 6.2.3 눈과 불의 도시 303
+* 6.2.4 이름이 그렇게 중요한가? 305
+
+### 6.3 표본과 조사 308
+* 6.3.1 예측할 수 없는 미국 대선 308
+* 6.3.2 비대칭 듀렉스 데이터 311
+* 6.3.3 행운아의 전설 313
+* 6.3.4 하버드 총장의 해고 316
+
+### 6.4 도형의 오도 318
+* 6.4.1 소득의 변화 318
+* 6.4.2 톨게이트와 정류장 320
+* 6.4.3 동관의 도주 322
+* 6.4.4 독이 있는 피팅 326
+
+

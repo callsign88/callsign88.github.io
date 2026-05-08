@@ -36,7 +36,7 @@ OSI 7Layer Level include:
 
 
 
-**NOTE**: 실제 설계시 중요한 사항들 OSI전체를 관통하는 핵심들에 대해서 정리
+**NOTE**: 실제 설계시 중요한 사항들 OSI Layer를 관통하는 핵심들에 대해 이미지로 생성
 
 {:.message}
 
