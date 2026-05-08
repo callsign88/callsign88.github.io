@@ -3,7 +3,7 @@ layout: post
 title: Related AI Projects 그리고 단상
 description: >
   AI 시대로 진입하고 나서 시시각각 ms 단위로 변하고 있는 기술스택의 세상에서 여러가지 단상들에 대한 기록을 하고 있다. 무작위적으로 그때마다 Tweet처럼(이젠X) 추가하는 것이라 오히려 Blog기록이 더 귀찮겠지만 
-tags: [hydejack]
+tags: [Build]
 ---
 
 우선 HW기술적으로 확인해야할 상황들이 꽤 많았다. Full Stack 의 기조를 유지한만큼 우선적으로 HW적 성능지표를 확인하고 싶었다. 얼마나 효율적으로 작업을 처리하는 지에 대한 기본 지표들 (Clock speed, IPC, Core개수, Threads, Cache 등등)과 같이 GPU 동작하기 위한 HW설계 및 지표들 
