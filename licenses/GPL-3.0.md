@@ -1,9 +1,9 @@
 ---
 layout: page
-title: GNU GENERAL PUBLIC LICENSE
+title: FrontEnd BookMark Blog's 
 ---
 
-Version 3, 29 June 2007
+Version 1.0, 10 May 2026
 
 Copyright (C) 2007 Free Software Foundation, Inc.
 <http://fsf.org/>

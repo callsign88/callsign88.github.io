@@ -7,7 +7,7 @@ Version 1.0, January 2025
 
 <https://callsign88.github.io/>
 
-## Blog 그리고 기록들 사용, 저장, 기록
+## Blog 사용, 저장, 그리고 기록
 ### 1. Definitions 정의
 
 "Blog" shall mean the terms and conditions for use, reproduction,
