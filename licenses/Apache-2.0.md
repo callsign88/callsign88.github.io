@@ -17,7 +17,7 @@ Version 1.0, January 2025
 
 ### 1. Definitions 정의
 
-<callsign88.github.io> 를 운영하려고 Customize해서 그럭저럭 꾸리고 있다. 
+callsign88.github.io 를 운영하려고 Customize해서 그럭저럭 꾸리고 있다. 
 
 
 ### 2. AI-agent
@@ -45,6 +45,8 @@ Domain 연동 실제 웹 배포deploy해서 간단하게 운영중인 웹페이�
 
 ### 6. BuildReact
 React+Vite 조합으로 간단하게 배포해서 확인하는 중 
+
+
 
 
 
