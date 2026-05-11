@@ -31,7 +31,7 @@ In addition 거기에 추가로 각종 작업기록과 업무 특성상 주로 �
 
 * 특정 기간동안 매주마다 새벽에 진행하는 점검 작업을 오랫동안 진행하고 나서 생긴 In hindsight 
 * 데이터센터 이전 작업과 그리고 지금의 DC 상황들 [Datacenter](https://www.datacenterdynamics.com/en/) 
-* [Network Routing](https://cisco.com), 대규모 Traffic을 조절하기 위한 작업들 그리고 기록들
+* [Network Routing](https://community.cisco.com/t5/networking-knowledge-base/dynamic-routing-protocols-ospf-eigrp-ripv2-is-is-bgp/tac-p/4513173), 대규모 Traffic을 조절하기 위한 작업들 그리고 기록들
 * Application 영역의 작업부터 Front/BackEND Deploy 및 각종 H.W Fault 인적Error 등등 다양하게 추가적인 게시글들과 개인에 관한 기록 [Velog](https://velog.io/@callsign88/series) 
 
 ### A.I 
