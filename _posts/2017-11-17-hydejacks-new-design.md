@@ -2,7 +2,7 @@
 layout: post
 title: Google/Open API
 description: >
-  This post Google Open API 연동시에 참고할 사항들이다. 
+  Google/Open API 연동시에 참고할 사항들이다. 
 image: /assets/img/caleb-george.jpg
 hide_image: true
 tags: [Build]
@@ -15,20 +15,22 @@ API연동하기 위해서는 KEY를 발급받고 연동작업을 진행해야한
 ## ChatGPT OpenAPI
 [OpenAPI](https://platform.openai.com/home)여기서 확인이 가능하다. 로그인해야 한다. 로그인 후에 우측 상단의 Dashboard나 좌측의 Usage에서 추가적인 확인이 가능하다. 
 
-![Hydejack's background image]({{ site.baseurl }}/assets/img/caleb-george.jpg){:.lead}
+![Hydejack's background image]({{ site.baseurl }}/assets/img/open.jpg){:.lead}
 
-추가적으로 질의/응답의 Token 량을 가지고 추가적인 비용예측이 가능하다. 
+추가적으로 질의/응답의 Token 량을 가지고 후속비용예측이 가능하다. 관련 결과를 가지고 질의하면 예상비용도 친절하게 알려준다.(자본주의의힘?)
 https://platform.openai.com/tokenizer[Token확인](https://platform.openai.com/tokenizer)
 
 
 
-![Original photo]({{ site.baseurl }}/assets/img/caleb-george-old.jpg){:.lead}
-
 ## Google API 
-이 Post를 작성한 궁극적인 원인이다. 동일하게 로그인후에 관련 메뉴를 확인하면 된다. https://aistudio.google.com/app/api-keys 하지만 친절하지 않고 복잡하다. 비용결제도 Tier group 후불 무엇인가? 이해가 필요하다. 물론 개인적인 생각의 차이일수도 있다. 
+이 Post를 작성한 궁극적인 원인이다. 동일하게 로그인후에 관련 메뉴를 확인하면 된다. https://aistudio.google.com/app/api-keys (https://aistudio.google.com/app/api-keys) 하지만 친절하지 않고 복잡하다. 비용결제도 Tier-group|후불 *"무엇인가? 사전이해가 필요하다."* 물론 개인적인 생각의 차이일수도 있다. 
+
+![Hydejack's background image]({{ site.baseurl }}/assets/img/studio.jpg){:.lead}
+
 
 ## API연동  
-이후에 각 API를 연동하고 .gitignore후에 추가로 FrontEnd영역(simpleHTML 이나 React/NodeJS)등등에서 작업한 기록들은 별도로 Post하려고 한다. 
+이후에 각 API를 연동하고 .gitignore후에 추가로 FrontEnd영역(simpleHTML 이나 React/NodeJS)등등에서 작업한 기록들은 2개의 차별점들과 함께 별도의 기록으로 Post하려고 한다. 
+
 
 
 
