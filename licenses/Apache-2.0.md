@@ -60,14 +60,16 @@ TO BE CONTINUED...
 
 ## APPENDIX: 참고
 
-To 참고사항 추가로 기재: 작업 도구 및 환경 
+
+Info: 작업도구 및 환경 
 
     Copyright [Version 1.0, January 2025]
 
     Firebase Studio 에서 작업하고 있는데 March 22, 2027
     Exoire 예정이라 Google AIStudio 나 Antigravity 로
     Migration이 필요한 상황이다.
-    
+
+
         http://firebase.studio
 
 
@@ -79,7 +81,8 @@ To 참고사항 추가로 기재: 작업 도구 및 환경
 
 
 
-    Deploy는 PagesCloud와 Chemi 인데 일단은 그대로 두고 조만간 작업을 해야한다. Vercel이나 다른 조합도 괜찮아서 계속 시도해봐야 할듯하다. 
+    Deploy는 PagesCloud와 Chemi 인데 일단은 그대로 두고 조만간 작업을 해야한다. 
+    Vercel이나 다른 조합도 괜찮아서 계속 시도해봐야 할듯하다. 
 
 
  
