@@ -22,7 +22,6 @@ May 11 2026
 * M
 * M
 * M
-* M
 
 Test1
 ~~~yml
@@ -39,11 +38,12 @@ Test2
 
 
 ### Features
-Everybody wants high availability until it’s their turn to be on-call!😕
+`Everybody wants high availability until it’s their turn to be on-call!`😕
 
 
 
-Features include:
+
+*Features include:*
 * `Nothing good happens at 3am.`
 * `If it wakes you up at 3am, automate it.` 
 * `The 3AM-Proof Design.`
