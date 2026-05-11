@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GPT's SEC
+title: GPT's Chat
 description: >
   GPT's 와 Cyber KillChain에 대한 실습구현 대화기록 
 tags: [Build]
