@@ -23,8 +23,10 @@ https://platform.openai.com/tokenizer[Token확인](https://platform.openai.com/t
 
 
 ## Google API 
-이 Post를 작성한 궁극적인 원인이다. 동일하게 로그인후에 관련 메뉴를 확인하면 된다. https://aistudio.google.com/app/api-keys <a href="https://aistudio.google.com/"></a> 하지만 친절하지 않고 복잡하다.
-              비용결제도 Tier-group|후불  *"무엇인가? 사전이해가 필요하다."*
+이 Post를 작성한 궁극적인 원인이다. 동일하게 로그인후에 관련 메뉴를 확인하면 된다. https://aistudio.google.com/app/api-keys <a href="https://aistudio.google.com/"></a> 하지만 친절하지 않고 복잡하다.  <br>
+
+비용결제도 Tier-group|후불  *"무엇인가? 사전이해가 필요하다."*. <br>
+
 물론 개인적인 생각의 차이일수도 있다.
 
 

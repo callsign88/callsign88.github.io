@@ -6,13 +6,11 @@ description: >
 tags: [Build]
 ---
 
+시스템과 네트워크 및 InfraStack이 고도화되다보니 각종 정의하거나 참조해야할 Metric 지표들이 범람해서 조금이나마 정리해보려고 한다. 
 
 
-# Metric
 
-This is a normal paragraph following a header. 
-
-## Metric
+## Metric Jeff Dean
 
 > Numbers Everyone Should Know
 >
