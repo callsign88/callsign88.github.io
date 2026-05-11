@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tech BookMark's  
+title: BookMark's  
 ---
 
 Version 1.0, 10 May 2026

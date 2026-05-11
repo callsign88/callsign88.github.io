@@ -91,9 +91,10 @@ OverHead
 * 5.
 
 
+출처&참고 
+
 [HuggingFace](https://huggingface.co/spaces/Vokturz/can-it-run-llm)
 
-[출처&참고]
-VRAM(https://health-coding.tistory.com/108)
-TOPS(https://blog.naver.com/qualcommkr/223461135901)
-LLM(https://hunihub.link/genai/GPU-Memory-Calculation-and-Can-it-Run-LLM-Tool-Guide/)
+VRAM [VRAM](https://health-coding.tistory.com/108)
+TOPS [TOPS](https://blog.naver.com/qualcommkr/223461135901)
+LLM [LLM](https://hunihub.link/genai/GPU-Memory-Calculation-and-Can-it-Run-LLM-Tool-Guide/)
