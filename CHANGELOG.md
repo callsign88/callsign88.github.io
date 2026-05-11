@@ -39,12 +39,9 @@ Test2
 
 ### Features
 Everybody wants high availability until it’s their turn to be on-call!😕
-
 ~~~yml
 
 ~~~
-
-
 *Features include:*
 * `Nothing good happens at 3am.`
 * `If it wakes you up at 3am, automate it.` 
