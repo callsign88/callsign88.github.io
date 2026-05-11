@@ -9,9 +9,6 @@ Version 1.0, January 2025
 
 ## Blog 사용, 저장, 그리고 기록
 
-
-### Are you Ready? O.K
-
 ![Hydejack's background image]({{ site.baseurl }}/assets/img/DevBuild.JPG){:.lead}
 
 
@@ -66,11 +63,14 @@ To 참고사항 추가로 기재: 작업 도구 및 환경
     Firebase Studio 에서 작업하고 있는데 March 22, 2027
     Exoire 예정이라 Google AIStudio 나 Antigravity 로
     Migration이 필요한 상황이다.
-
+    
         http://firebase.studio
 
-    Firebase Studio is sunsetting on March 22, 2027. 
-    We're simplifying our AI developer offerings by transitioning the lessons learned from the FirebaseStudio preview into our flagship tools: 
-    Google AI Studio and Google Antigravity.
 
-    Deploy는 PagesCloud와 Chemi 인데 일단은 나중에 생각하자! 
+    Firebase Studio is sunsetting on March 22, 2027.
+    We're simplifying our AI developer offerings by transitioning the lessons learned from the FirebaseStudio preview into our flagship tools:     Google AI Studio and Google Antigravity.
+
+    Deploy는 PagesCloud와 Chemi 인데 일단은 나중에 생각하자!
+    
+
+ 
