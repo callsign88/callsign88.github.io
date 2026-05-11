@@ -23,7 +23,7 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 
 * [넷마블 기술 블로그](https://netmarble.engineering?utm_source=chatgpt.com)
 
-* [넥슨 기술 블로그](https://meetup.nexon.dev?utm_source=chatgpt.com)
+* [넥슨 기술 블로그](https://www.intelligencelabs.tech/)
 
 * [데브시스터즈 기술 블로그](https://tech.devsisters.com?utm_source=chatgpt.com)
 
@@ -53,7 +53,7 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 
 * [무신사 기술 블로그](https://medium.com/musinsa-tech?utm_source=chatgpt.com)
 
-* [브랜디 기술 블로그](https://blog.brandi.co.kr/tech?utm_source=chatgpt.com)
+* [Banksalad 기술 블로그](https://blog.banksalad.com/tech?utm_source=chatgpt.com)
 
 * [티빙 기술 블로그](https://medium.com/tving-team?utm_source=chatgpt.com)
 
@@ -64,8 +64,6 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 * [Amazon 기술 블로그](https://aws.amazon.com/blogs?utm_source=chatgpt.com)
 
 * [ebay 기술 블로그](https://innovation.ebayinc.com/tech?utm_source=chatgpt.com)
-
-* [Banksalad 기술 블로그](https://blog.banksalad.com/tech?utm_source=chatgpt.com)
 
 * [Paypal 기술 블로그](https://medium.com/paypal-tech?utm_source=chatgpt.com)
 
@@ -97,11 +95,11 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 
 ### 출처참고 
 {:style="list-style-type:lower-latin"}
-1. (https://www.techblogposts.com/ko) 
-2. (https://www.velopers.kr/) 
-3. (https://www.techblogposts.com/ko) 
-4. (https://devblog.kr/posts)
-5. (https://zero-base.co.kr/event/media_insight_contents_FE_frontend_blog)
+1. <https://www.techblogposts.com/ko
+2. <https://www.velopers.kr
+3. <https://www.techblogposts.com/ko 
+4. <https://devblog.kr/posts
+5. <https://zero-base.co.kr/event/media_insight_contents_FE_frontend_blog
 
 
 
