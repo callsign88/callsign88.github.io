@@ -7,7 +7,7 @@ Version 1.0, January 2025
 
 <https://callsign88.github.io/>
 
-## Blog ### 사용, 저장, 그리고 기록
+## Blog 사용, 저장, 그리고 기록
 
 
 ![Hydejack's background image]({{ site.baseurl }}/assets/img/DevBuild.JPG){:.lead}
