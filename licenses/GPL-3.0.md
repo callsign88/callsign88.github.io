@@ -97,9 +97,9 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 {:style="list-style-type:lower-latin"}
 1. https://www.techblogposts.com/ko <a href="https://www.techblogposts.com/ko"></a>
 2. https://www.velopers.kr <a href="https://www.velopers.kr"></a>
-3. https://www.techblogposts.com/ko <a href="https://www.techblogposts.com/k"></a>
+3. https://newcodes.net/ <a href="https://newcodes.net/"></a>
 4. https://devblog.kr/posts <a href="https://devblog.kr/posts"></a>
-5. https://zero-base.co.kr/eventmedia_insight_contents_FE_frontend_blog <a href="https://zero-base.co.kr/eventmedia_insight_contents_FE_frontend_blog"></a>
+5. https://zero-base.co.kr/event/media_insight_contents_FE_frontend_blog <a href="https://zero-base.co.kr/event/media_insight_contents_FE_frontend_blog"></a>
 
 
 
