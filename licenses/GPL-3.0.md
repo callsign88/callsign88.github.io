@@ -31,8 +31,6 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 
 * [요기요 기술 블로그](https://techblog.yogiyo.co.kr?utm_source=chatgpt.com)
 
-* [그랩 기술 블로그](https://engineering.grab.com?utm_source=chatgpt.com)
-
 * [쿠팡 기술 블로그](https://medium.com/coupang-engineering?utm_source=chatgpt.com)
 
 * [G마켓 기술 블로그](https://dev.gmarket.com?utm_source=chatgpt.com)
@@ -71,6 +69,8 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 
 * [X 기술 블로그](https://blog.x.com/engineering/en_us?utm_source=chatgpt.com)
 
+* [Grab 기술 블로그](https://engineering.grab.com?utm_source=chatgpt.com)
+
 * [Airbnb 기술 블로그](https://medium.com/airbnb-engineering?utm_source=chatgpt.com)
 
 * [Google 기술 블로그](https://developers.googleblog.com?utm_source=chatgpt.com)
@@ -95,11 +95,11 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 
 ### 출처참고 
 {:style="list-style-type:lower-latin"}
-1. <https://www.techblogposts.com/ko
-2. <https://www.velopers.kr
-3. <https://www.techblogposts.com/ko 
-4. <https://devblog.kr/posts
-5. <https://zero-base.co.kr/event/media_insight_contents_FE_frontend_blog
+1. [https://www.techblogposts.com/ko]
+2. [https://www.velopers.kr]
+3. [https://www.techblogposts.com/ko]
+4. [https://devblog.kr/posts]
+5. [https://zero-base.co.kr/eventmedia_insight_contents_FE_frontend_blog]
 
 
 
