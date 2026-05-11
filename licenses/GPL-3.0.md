@@ -95,11 +95,12 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 
 ### 출처참고 
 {:style="list-style-type:lower-latin"}
-1. [https://www.techblogposts.com/ko]
-2. [https://www.velopers.kr]
-3. [https://www.techblogposts.com/ko]
-4. [https://devblog.kr/posts]
-5. [https://zero-base.co.kr/eventmedia_insight_contents_FE_frontend_blog]
+1. [link]: https://www.techblogposts.com/ko
+2. [link]: https://www.velopers.kr
+3. [link]: https://www.techblogposts.com/ko
+4. [link]: https://devblog.kr/posts
+5. [link]: https://zero-base.co.kr/eventmedia_insight_contents_FE_frontend_blog
+6. <a href="https://www.velopers.kr"></a>
 
 
 
