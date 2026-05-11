@@ -26,7 +26,7 @@ https://platform.openai.com/tokenizer[Token확인](https://platform.openai.com/t
 이 Post를 작성한 궁극적인 원인이다. 동일하게 로그인후에 관련 메뉴를 확인하면 된다. https://aistudio.google.com/app/api-keys <a href="https://aistudio.google.com/"></a> 하지만 친절하지 않고 복잡하다.
 
 
-비용결재도 Tier-Group|후불에 대해서 미리 인지하고 처리를 해야하고 *"무엇인가? 사전이해가 많이 필요하다"* 물론 개인적인 시각의 차이일수 있다. 하지만 사용자친화적인 감각은 아닌 듯 하다. 
+비용결재도 Tier-Group&후불에 대해서 미리 인지하고 처리를 해야하고 *"무엇인가? 사전이해가 많이 필요하다"* 물론 개인적인 시각의 차이일수 있다. 하지만 User친화적인 감각은 아닌 듯 하다. 
 
 ![Hydejack's background image]({{ site.baseurl }}/assets/img/studio.jpg){:.lead}
 
