@@ -97,7 +97,7 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 
 
 
-### 출처참고 
+### ❒출처참고 
 {:style="list-style-type:lower-latin"}
 1. https://www.techblogposts.com/ko <a href="https://www.techblogposts.com/ko"></a>
 2. https://www.velopers.kr <a href="https://www.velopers.kr"></a>

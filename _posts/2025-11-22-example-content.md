@@ -6,21 +6,17 @@ description: >
 tags: [Build]
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](another-page).
+## Metric Numbers Everyone Should Know
 
-There should be whitespace between paragraphs.
+> Numbers Everyone Should Know
+> 구글의 Jeff Dean `Head of Google's`이 제시했던 수치들이다. 
+
+![Hydejack's background image]({{ site.baseurl }}/assets/img/metric.jpg){:.lead}
+
+[Numbers Everyone Should Know](https://highscalability.com/google-pro-tip-use-back-of-the-envelope-calculations-to-choo/)
 
 
-# Metric 1
-
-This is a normal paragraph following a header. 
-## Metric 2
-
-> This is a blockquote following a header.
->
-> When something is important enough
 
 ### Metric 3
 
@@ -52,6 +48,14 @@ This is a normal paragraph following a header.
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
+
+
+Text can be **bold**, _italic_, or ~~strikethrough~~.
+
+[Link to another page](another-page).
+
+There should be whitespace between paragraphs.
+
 
 ### There's a horizontal rule below this.
 
