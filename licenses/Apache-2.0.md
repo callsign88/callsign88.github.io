@@ -21,7 +21,7 @@ callsign88.github.io 를 운영하려고 Customize해서 그럭저럭 꾸리고 
 
 
 ### 2. AI-agent
-AI 학습 시키기 위해서 기본과정을 이해하고 높이기 위해서 BabyAGI를 생성,실행,테스트 중이다. 
+AI 학습 시키기 위해서 기본과정을 이해하고 나름의 레벨을 높이기 위해서 BabyAGI를 생성,실행,테스트 중이다. 
 
 
 ### 3. Serp API 
@@ -81,7 +81,7 @@ Info: 작업도구 및 환경
 
 
 
-    Deploy는 PagesCloud와 Chemi 인데 일단은 그대로 두고 조만간 작업을 해야한다. 
+    Deploy는 PagesCloud와 Chemi 인데 일단은 그대로 두고 조만간 Migration작업을 해야한다.(Noti의 압박-_-;) 
     Vercel이나 다른 조합도 괜찮아서 계속 시도해봐야 할듯하다. 
 
 

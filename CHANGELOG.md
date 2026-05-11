@@ -7,7 +7,7 @@ title: Trivial's
 May 10 2026
 {:.heading.post-date}
 
-* Site Link 추가한다. 개인적으로 `KeyBoard Nerd` 인 듯하다. 
+* 흥미로운 Site Link 추가한다. 개인적으로 `KeyBoard Nerd` 인 듯하다. 
 * [https://matt3o.com/about/](https://matt3o.com/about/)
 
 ### v1.0.1
@@ -42,7 +42,7 @@ Everybody wants high availability until it’s their turn to be on-call!😕
 ~~~yml
 
 ~~~
-*Features include:*
+Features include:
 * `Nothing good happens at 3am.`
 * `If it wakes you up at 3am, automate it.` 
 * `The 3AM-Proof Design.`
