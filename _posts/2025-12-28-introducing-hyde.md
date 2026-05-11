@@ -11,7 +11,7 @@ canonical_url: http://hyde.getpoole.com/2013/12/28/introducing-hyde/
 Blog의 페이지 자체는 Hyde의 Theme [Jekyll](http://jekyllrb.com) 를 치환해 사용했다. 초기에 MacBook 에서 setting을 진행하다 보니 자연스럽게 기존 Packages 를 설치해서 사용하고 일부 수정하게 되었다.  
 /참고/ It's based on [Poole](http://getpoole.com)
 
-**NOTE**: 이 Blog 및 각종 Post들은 최초설치 및 설정시에 전체 update로 작성했고 이후에는 랜덤하게 생성해서 일관적이지 않을 수가 있다. 관련 Post에 관한 기록들은 페이지를 참고 [Docs][docs]
+**NOTE**: 이 Blog 및 각종 Post들은 최초설치 및 설정시에 전체 update로 작성했고 이후에는 랜덤하게 생성해서 일관적이지 않을 수가 있다. 관련 Post에 관한 기록들은 페이지를 참고 [Blog][blog]
 {:.message}
 
 ### Post DEV
@@ -47,4 +47,4 @@ Hyde is developed on and hosted with GitHub. Head to the [GitHub repository](htt
 감사합니다. Thanks!
 
 
-[docs]: https://callsign88.github.io/
+[blog]: https://callsign88.github.io/
