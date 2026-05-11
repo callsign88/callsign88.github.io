@@ -6,19 +6,19 @@ description: >
 tags: [Build]
 ---
 
-시스템과 네트워크 및 InfraStack이 고도화되다보니 각종 정의하거나 참조해야할 Metric 지표들이 범람해서 조금이나마 정리해보려고 한다. 
+시스템과 네트워크 및 Infra-Stack이 고도화되다보니 전 영역에서 각종 정의하거나 참조해야할 Metric 지표들이 범람해 조금이나마 정리해보려고 한다. 
 
 
 
-## Metric Jeff Dean
+### Metric Jeff Dean
 
 > Numbers Everyone Should Know
 >
-> 구글의 Jeff Dean `Head of Google's`이 제시했던 수치들이다. 
+> 구글의 Jeff Dean `Head of Google's`이 오래 전 제시했던 수치들이다. 
 
 ![Hydejack's background image]({{ site.baseurl }}/assets/img/metric.jpg){:.lead}
 
-[Numbers Everyone Should Know](https://highscalability.com/google-pro-tip-use-back-of-the-envelope-calculations-to-choo/)
+[Numbers Everyone Should Know](https://highscalability.com/google-pro-tip-use-back-of-the-envelope-calculations-to-choo/) `참고삼아 기재한다.` 
 
 
 
