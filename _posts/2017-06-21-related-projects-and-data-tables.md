@@ -70,25 +70,30 @@ OverHead
 
 ### 실직적 의미 
 * 1.
-* 1.
-* 1.
-* 1.
-* 1.
-* 1. 
+* 2.
+* 3.
+* 4.
+* 5.
+
 
 ### Memory 최적화 기법
 * 1.
-* 1.
-* 1.
-* 1.
-* 1.
+* 2.
+* 3.
+* 4.
+* 5.
 
 ### Can it Run LLM  확인방법
 * 1.
-* 1.
-* 1.
-* 1.
-* 1.
+* 2.
+* 3.
+* 4.
+* 5.
 
 
 [HuggingFace](https://huggingface.co/spaces/Vokturz/can-it-run-llm)
+
+[출처&참고]
+VRAM(https://health-coding.tistory.com/108)
+TOPS(https://blog.naver.com/qualcommkr/223461135901)
+LLM(https://hunihub.link/genai/GPU-Memory-Calculation-and-Can-it-Run-LLM-Tool-Guide/)
