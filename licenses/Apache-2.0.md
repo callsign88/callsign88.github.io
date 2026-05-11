@@ -7,7 +7,8 @@ Version 1.0, January 2025
 
 <https://callsign88.github.io/>
 
-## Blog 사용, 저장, 그리고 기록
+## Blog ### 사용, 저장, 그리고 기록
+
 
 ![Hydejack's background image]({{ site.baseurl }}/assets/img/DevBuild.JPG){:.lead}
 
@@ -16,7 +17,7 @@ Version 1.0, January 2025
 
 ### 1. Definitions 정의
 
-"callsign88.github.io" Github blog를 운영하려고 Customize해서 그럭저럭 꾸리고 있다. 
+<callsign88.github.io> 를 운영하려고 Customize해서 그럭저럭 꾸리고 있다. 
 
 
 ### 2. AI-agent
@@ -48,6 +49,7 @@ React+Vite 조합으로 간단하게 배포해서 확인하는 중
 
 
 
+
 TO BE CONTINUED...
 
 
@@ -68,9 +70,14 @@ To 참고사항 추가로 기재: 작업 도구 및 환경
 
 
     Firebase Studio is sunsetting on March 22, 2027.
-    We're simplifying our AI developer offerings by transitioning the lessons learned from the FirebaseStudio preview into our flagship tools:     Google AI Studio and Google Antigravity.
+    We're simplifying our AI developer offerings
+    by transitioning the lessons learned from the
+    FirebaseStudio preview into our flagship tools:
+    Google AI Studio and Google Antigravity.
 
-    Deploy는 PagesCloud와 Chemi 인데 일단은 나중에 생각하자!
-    
+
+
+    Deploy는 PagesCloud와 Chemi 인데 일단은 그대로 두고 조만간 작업을 해야한다. Vercel이나 다른 조합도 괜찮아서 계속 시도해봐야 할듯하다. 
+
 
  
