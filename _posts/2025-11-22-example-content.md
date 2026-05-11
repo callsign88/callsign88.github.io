@@ -2,14 +2,15 @@
 layout: post
 title: Stack Metric
 description: >
-  This is a normal Stack Metric..  Metric들에 대해 기술한다. 
+  This is a normal Stack Metric..  개인적으로 정의한 Metric들에 대해 기술한다. 
 tags: [Build]
 ---
 
+### Metric_Numbers Everyone Should Know
 
-## Metric Numbers Everyone Should Know
 
 > Numbers Everyone Should Know
+
 > 구글의 Jeff Dean `Head of Google's`이 제시했던 수치들이다. 
 
 ![Hydejack's background image]({{ site.baseurl }}/assets/img/metric.jpg){:.lead}
@@ -114,7 +115,7 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
-## Hydejack Exclusives
+### Hydejack Exclusives
 Hydejack offers a few additional features to markup your markdown.
 Don't worry, these are merely CSS classes added with kramdown's `{:.my-class}` syntax,
 so that your posts remain compatible with other Jekyll themes.
