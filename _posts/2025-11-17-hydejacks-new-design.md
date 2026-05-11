@@ -26,13 +26,13 @@ https://platform.openai.com/tokenizer[Token확인](https://platform.openai.com/t
 이 Post를 작성한 궁극적인 원인이다. 동일하게 로그인후에 관련 메뉴를 확인하면 된다. https://aistudio.google.com/app/api-keys <a href="https://aistudio.google.com/"></a> 하지만 친절하지 않고 복잡하다.
 
 
-추가적으로 질의/응답의 Token 량을 가지고 후속비용예측이 가능하다. 관련 결과를 가지고 질의하면 예상비용도 친절하게 알려준다.(자본주의의힘?)
+비용결재도 Tier-Group|후불에 대해서 미리 인지하고 처리를 해야하고 *"무엇인가? 사전이해가 많이 필요하다"* 물론 개인적인 시각의 차이일수 있다. 하지만 사용자친화적인 감각은 아닌 듯 하다. 
 
 ![Hydejack's background image]({{ site.baseurl }}/assets/img/studio.jpg){:.lead}
 
 
 ## API연동  
-이후에 각 API를 연동하고 `.gitignore`처리하고 추가로 FrontEnd영역에서(simpleHTML 이나 React/NodeJS등등) API연동관련 작업한 기록들은 2개의 차별점들과 함께 별도의 기록으로 Post하려고 한다. 
+이후에 각 API를 연동하고 `.gitignore`처리하고 추가로 FrontEnd영역에서(simpleHTML 이나 React/NodeJS등등) API연동관련 작업한 기록들은 2Platform의 차별점들과 함께 별도의 기록으로 Post하려고 한다. 
 
 
 
