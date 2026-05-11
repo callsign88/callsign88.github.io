@@ -6,11 +6,16 @@ description: >
 tags: [Build]
 ---
 
-### Metric_Numbers Everyone Should Know
 
+
+# Metric
+
+This is a normal paragraph following a header. 
+
+## Metric
 
 > Numbers Everyone Should Know
-
+>
 > 구글의 Jeff Dean `Head of Google's`이 제시했던 수치들이다. 
 
 ![Hydejack's background image]({{ site.baseurl }}/assets/img/metric.jpg){:.lead}
