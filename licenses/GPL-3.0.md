@@ -92,12 +92,7 @@ BookMarks: 기술 블로그 북마크를 간단하게 첨부하였다.
 * [Slack 기술 블로그](https://slack.engineering?utm_source=chatgpt.com)
 
 
-~~~yml
 
-ETC: 추가로 Site Link 하나 걸어둔다. 저자가 키보드 mania 인듯하다.  
-URL: "https://matt3o.com/anatomy-of-a-keyboard"
-
-~~~
 
 
 
