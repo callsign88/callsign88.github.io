@@ -33,9 +33,9 @@ Type: 분류는 지극히 개인적인 기준이다.
 ~~~
 
 
-#### Inf/Net
+#### Inf/Net/IDC
 
-데이터센터 인프라 입문서<a href="https://www.g-world.co.kr/book/3208"></a>
+데이터센터 인프라 입문서<a href="https://www.g-world.co.kr/book/3208"></a><br>
 AmazonVPC 네트워킹원리와보안<a href="http://acornpub.co.kr/book/amazon-vpc"></a>
 
 
@@ -43,28 +43,45 @@ AmazonVPC 네트워킹원리와보안<a href="http://acornpub.co.kr/book/amazon-
 
 ***
 
+Forecast:
 * AI 2041
 * WEB3 Wave 웹3 웨이브 
 
-* 기업의 DX와5G
-* 리모트워크 레볼루션 
-
+Strategy: 
+* 프로세스 이코노미
+* 리모트워크 레볼루션
 * 제품의 탄생
 * Product Owner 프로덕트오너 
+* ~~판교의 기획자들~~
 
-* 프로세스 이코노미
+ITEng:
 * 기업의 성공을 이끄는 Developer Relations 
 * 개발자의 글쓰기 
 * 데이터 과학자 원칙
 * UX/UI의 10가지 심리학 법칙
+
+Comm:
+* 기업의 DX와5G
 
 ***
 
 
 ### IT 수학 
 
+~~~
 - 세상의 모든공식
+~~~
+
+~~~yml
 - 경이로운 수 이야기 
-- 숫자가 만만해지는 책
+~~~
+
+~~~css
+.숫자가 만만해지는 책
+~~~
+
 - 처음 읽는 수학의 세계사
+
 - 평생 써먹는 수학 용어집
+
+*[Note]: 업데이트 된다. 
