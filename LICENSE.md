@@ -8,44 +8,44 @@ description: >
 ## IT Engineering 
 Type: 분류는 지극히 개인적인 기준이다. 
 
-#### Dev/Tech/Eng 
+#### ❒ Dev/Tech/Eng 
 
-1. <sapn style="color:#93add9;">대규모 시스템 설계기초 가상면접 사례로 배우는</sapn>
-2. <sapn style="color:#93add9;">시스템 설계 요즘 개발자를 위한</sapn>
+1. <sapn style="color:#93add9;">가상면접 사례로 배우는 대규모 시스템 설계기초</sapn>
+2. <sapn style="color:#93add9;">요즘 개발자를 위한시스템 설계</sapn>
 3. <sapn style="color:#93add9;">알고리즘, 인생을 설계하다</sapn>
 4. <sapn style="color:#93add9;">통계의 아름다움</sapn>
-5. <sapn style="color:#93add9;">비트코인•블록체인바이블</sapn>
+5. <sapn style="color:#93add9;">비트코인•블록체인바이블</sapn><a href="https://wikibook.co.kr/bcbc/"></a>
 
 ~~~yml
 
 ~~~
 
->네트워킹과 웹 성능 최적화 기법 `구글 엔지니어에게 듣는`
+>**네트워킹과 웹 성능 최적화 기법** `구글 엔지니어에게 듣는`
 
->HTTP 완벽가이드 `오랜된 책이지만 최적화했다.Connection DeepDive`
+>**HTTP 완벽가이드** `오랜된 책이지만 최적화했다.Connection DeepDive`
 
->**웹 퍼포먼스 모니터링**과 디버깅 `마찬가지로 오랜된 책이지만 틈틈이`
+>**웹 퍼포먼스 모니터링과 디버깅** `마찬가지로 오랜된 책이지만 틈틈이`
 
->실전 네트워크 보안 모니터링 `방법론적인 기술과 총론과 같은`
+>**실전 네트워크 보안 모니터링** `방법론적인 기술과 총론과 같은`
 
->이것이 레디스다 `Nosql에 이론적기술.. 정작가님 잘지내고 있죠?` 
+>**이것이 레디스다** `Nosql의 기본기.. 정작가님 잘지내고 있죠?😀` 
 
 ~~~
-대부분 출간된지 꽤 오래된 책들이고 한묶음 차지하고 있지만 부피만큼이나 도움이 되었던 책들이다.  
+대부분 출간된지 꽤 오래된 책들이고 구석에 한묶음을 차지하고 있지만 부피만큼이나 도움이 되었던 책들이다.  
 ~~~
 
 
-#### Inf/Net/IDC
+#### ❒ Inf/Net/IDC
 
 데이터센터 인프라 입문서<a href="https://www.g-world.co.kr/book/3208"></a><br>
 AmazonVPC 네트워킹원리와보안<a href="http://acornpub.co.kr/book/amazon-vpc"></a><br>
-❒ `DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다.` 
+ - `DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다.` 
 
 
-#### Social ENG
+#### ❒ Social ENG
 
 ***
-Strategy: 
+Strategy : 
 * `프로세스 이코노미`
 * `리모트워크 레볼루션`
 * `제품의 탄생`
@@ -53,40 +53,43 @@ Strategy:
 * ~~`판교의 기획자들`~~ `(저 봤어요! 완독했어요! Youtube목소리)`
 
 
-ITEng:
+ITEngineering :
 * `기업의 성공을 이끄는 Developer Relations` 
 * `개발자의 글쓰기` 
 * `데이터 과학자 원칙`
 * `UX/UI의 10가지 심리학 법칙`
 
-Forecast:
+Forecast :
 * `AI 2041`
 * `WEB3 Wave 웹3 웨이브` 
-* `기업의 DX와5G`
+* `기업의 DX와 5G`
 
 ***
 
 
 ## IT Mathematics 
-Type:수학도서들의 집합이다. 
+Type: 수학도서들의 집합이다. 
 
 
 
-#### Math/Number
+#### ❒ Math/Numbers
 ~~~
-『세상의 모든공식』 복잡한 세상을 풀어내는 52가지 공식이야기이다. 
+『수학의쓸모』: 수학적 사고와 그 유용성에 관한 설명. 
 ~~~
 ~~~yml
-『경이로운 수 이야기』: 짧고 간단하지만 알찬 내용들로 가득하다. 망각하는게 함정(-_-;
+『세상의 모든공식』: 복잡한 세상을 풀어내는 52가지 공식이야기이다. 
+~~~
+~~~yml
+『경이로운 수 이야기』: 짧고 간단하지만 알찬 내용들로 가득하다. 자꾸 잊어버리는 게 함정
+~~~
+~~~yml
+『숫자가 만만해 지는 책』: 컴퓨터공학의 GURU Brian W Kernighan 교수께서 친히 집필하신  
 ~~~
 ~~~css
-.숫자가만만해지는책, .IT의GURU .Brian W.Kernighan, .교수께서 .친히 .집필하신  
+『처음읽는 .수학의 세계사』: 일본작가 특유의 .Detail함이 있다. 
 ~~~
-~~~js
-//『처음읽는 수학의 세계사』: 일본작가 특유의 Detail함이 있다. 
-~~~
-~~~ruby
-#『평생 써먹는 수학 용어집』: 평생 써먹어야 할텐데...
+~~~css
+『평생 써먹는 .수학 용어집』: 평생 써먹어야 할텐데...
 ~~~
 
 
