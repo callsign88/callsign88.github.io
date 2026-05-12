@@ -41,7 +41,7 @@ Type: 분류는 지극히 개인적인 기준이다.
 
 데이터센터 인프라 입문서<a href="https://www.g-world.co.kr/book/3208"></a><br>
 AmazonVPC 네트워킹원리와보안<a href="http://acornpub.co.kr/book/amazon-vpc"></a><br>
-<sapn style="color:#dbb11a;">DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다.</sapn>
+<sapn style="color:#ebd56a;">DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다.</sapn>
 
 #### ❒ Social ENG
 
