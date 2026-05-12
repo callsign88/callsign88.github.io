@@ -11,10 +11,12 @@ Type: 분류는 지극히 개인적인 기준이다.
 #### ❒ Dev/Tech/Eng 
 
 1. <sapn style="color:#93add9;">가상면접 사례로 배우는 대규모 시스템 설계기초</sapn>
-2. <sapn style="color:#93add9;">요즘 개발자를 위한시스템 설계</sapn>
-3. <sapn style="color:#93add9;">알고리즘, 인생을 설계하다</sapn>
+2. <sapn style="color:#93add9;">요즘 개발자를 위한시스템 설계수업</sapn>
+3. <sapn style="color:#93add9;">알고리즘, 인생을 계산하다</sapn>
 4. <sapn style="color:#93add9;">통계의 아름다움</sapn>
-5. <sapn style="color:#93add9;">비트코인•블록체인바이블</sapn>[link](https://wikibook.co.kr/bcbc/)
+5. <sapn style="color:#93add9;">비트코인•블록체인바이블</sapn>
+
+[1](https://blog.insightbook.co.kr/2021/07/22/%E3%80%8A%EA%B0%80%EC%83%81-%EB%A9%B4%EC%A0%91-%EC%82%AC%EB%A1%80%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%8C%80%EA%B7%9C%EB%AA%A8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%84%A4%EA%B3%84-%EA%B8%B0%EC%B4%88/)[2](https://www.gilbut.co.kr/book/view?bookcode=BN004588)[3](https://chungrim.com/bbs/board.php?bo_table=m02_01&wr_id=285)[4](https://jpub.tistory.com/1100)[5](https://wikibook.co.kr/bcbc/)
 
 ~~~yml
 
@@ -39,8 +41,7 @@ Type: 분류는 지극히 개인적인 기준이다.
 
 데이터센터 인프라 입문서<a href="https://www.g-world.co.kr/book/3208"></a><br>
 AmazonVPC 네트워킹원리와보안<a href="http://acornpub.co.kr/book/amazon-vpc"></a><br>
- - `DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다.` 
-
+<sapn style="color:#dbb11a;">DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다.</sapn>
 
 #### ❒ Social ENG
 
@@ -83,10 +84,10 @@ Type: 수학도서들의 집합이다.
 『숫자가 만만해 지는 책』: 컴퓨터공학의 GURU Brian W Kernighan 교수께서 친히 집필하신  
 ~~~
 ~~~css
-.『.처음읽는 .수학의 .세계사』: .일본작가 .특유의 .Detail함이 .있다. 
+『.처음읽는 .수학의 .세계사』: .일본작가 .특유의 .Detail함이 .있다. 
 ~~~
 ~~~css
-.『.평생 .써먹는 .수학 .용어집』: .평생 .써먹어야 .할텐데...
+『.평생 .써먹는 .수학 .용어집』: .평생 .써먹어야 .할텐데...
 ~~~
 ~~~
 『세상의 모든공식』: 복잡한 세상을 풀어내는 52가지 공식이야기이다. 
