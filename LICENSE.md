@@ -39,7 +39,7 @@ Type: 분류는 지극히 개인적인 기준이다.
 
 데이터센터 인프라 입문서<a href="https://www.g-world.co.kr/book/3208"></a><br>
 AmazonVPC 네트워킹원리와보안<a href="http://acornpub.co.kr/book/amazon-vpc"></a><br>
-❒ DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다. 
+❒ `DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다.` 
 
 
 #### Social ENG
@@ -50,7 +50,7 @@ Strategy:
 * `리모트워크 레볼루션`
 * `제품의 탄생`
 * `Product Owner 프로덕트오너` 
-* ~~`판교의 기획자들`~~ `(저 봤어요! 완독했어요! youtube voice)`
+* ~~`판교의 기획자들`~~ `(저 봤어요! 완독했어요! Youtube목소리)`
 
 
 ITEng:
@@ -62,16 +62,17 @@ ITEng:
 Forecast:
 * `AI 2041`
 * `WEB3 Wave 웹3 웨이브` 
-
-
-Comm:
 * `기업의 DX와5G`
 
 ***
 
 
 ## IT Mathematics 
+Type:수학도서들의 집합이다. 
 
+
+
+#### Math/Number
 ~~~
 『세상의 모든공식』 복잡한 세상을 풀어내는 52가지 공식이야기이다. 
 ~~~
@@ -79,7 +80,7 @@ Comm:
 『경이로운 수 이야기』: 짧고 간단하지만 알찬 내용들로 가득하다. 망각하는게 함정(-_-;
 ~~~
 ~~~css
-.『숫자가만만해지는책』, .IT의GURU .Brian W.Kernighan, .교수께서 .친히 .집필하신  
+.숫자가만만해지는책, .IT의GURU .Brian W.Kernighan, .교수께서 .친히 .집필하신  
 ~~~
 ~~~js
 //『처음읽는 수학의 세계사』: 일본작가 특유의 Detail함이 있다. 
@@ -89,7 +90,7 @@ Comm:
 ~~~
 
 
-**[Note]**: 도서목록은 추가 업데이트 된다. 아마 추가는 되어도 삭제는 되지 않을 것이다. 
+**[Note]**: 도서목록은 추가 업데이트 된다. 아마 추가는 되어도 삭제는 되지 않을 것이다. 다 읽지 못하고 있어서...
 {:.message}
 
 
