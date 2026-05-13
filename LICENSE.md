@@ -41,7 +41,7 @@ Type: 분류는 지극히 개인적인 기준이다.
 
 데이터센터 인프라 입문서<a href="https://www.g-world.co.kr/book/3208"></a><br>
 AmazonVPC 네트워킹원리와보안<a href="http://acornpub.co.kr/book/amazon-vpc"></a><br>
- - *<sapn style="color:#f5e9ae;">DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다.</sapn>*
+ - *<sapn style="color:#f5e9ae;">DC와 VPC 이기종간 Hybrid의 결합이라고나 할까. 두고두고 계속 펼쳐봐야 한다.</sapn>*
 
 #### ❒ Social ENG
 
@@ -92,12 +92,12 @@ Type: 수학도서들의 집합이다.
 
 #### ❒ 페이크와 팩트  
 
-**The Irrational Ape**        Why We Fall for Disinformation, Conspiracy Theory and Propaganda by `David Robert Grimes``
+**The Irrational Ape**
+(`비합리적 유인원  우리가 허위정보 음모론 선전에 빠지는 이유`)
+Why We Fall for Disinformation, Conspiracy Theory and Propaganda by `David Robert Grimes`` 
 
-(`비합리적 유인원  우리가 허위정보 음모론 선전에 빠지는 이유`) 
 
-
-[페이크와팩트 Acanet](http://www.acanet.co.kr/book/book_detail.php?book_id=848)
+[페이크와팩트`By Acanet`](http://www.acanet.co.kr/book/book_detail.php?book_id=848)
 
 ![Hydejack's background image]({{ site.baseurl }}/assets/img/book.jpg){:.lead}
 
