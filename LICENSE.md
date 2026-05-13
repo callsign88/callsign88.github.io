@@ -67,6 +67,8 @@ Forecast :
 * `기업의 DX와 5G`
 
 ***
+ - *<sapn style="color:#f5e9ae;">몇 권의 책들을 따로 Highlight해서 추가 Posting할 예정이다.</sapn>*
+
 
 
 ## Mathematics 
