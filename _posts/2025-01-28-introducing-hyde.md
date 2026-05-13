@@ -16,9 +16,9 @@ Blog의 페이지 자체는 Hyde의 Theme [Jekyll](http://jekyllrb.com) 를 치�
 
 ### Post DEV
 
-Dev는 블로그에 대한 간단한 정의들.. 여러 범주 Category 에 대한 각종 생각과 기록들... 그리고 그때 그때의 기록을 통해서 계속 진행되가고 있는 것들이다. 
+Dev는 블로그에 대한 간단한 정의들.. 여러 범주 Category 에 대한 각종 생각과 기록들... 그리고 그때 그때의 기록을 통해서 계속 진행되가고 있는 것들이다.([About]({{ '/about/' | relative_url }})) 
 
-* IT Engineering 에 대한 각종 Posts, 그리고 기록들...   ([About]({{ '/about/' | relative_url }}))
+* IT Engineering 에 대한 각종 Posts, 그리고 기록들...   
 * 연관된 다양한 정보를 획득하면서 잊지 않기 위해서 저장한 정보들 
 * 개발 / 인프라 / 시스템&네트워크 / 데이터 / 보안 각 영역들에 대해서 기본적인 Default 요소들
 * 추가로 이 영역을 확장해서 거시적이고 통합적인 Full-Stack 차원에서 바라볼 수 있는 시각의 힘 

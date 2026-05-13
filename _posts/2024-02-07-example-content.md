@@ -23,7 +23,7 @@ Network 작업에 대한 Gary A. Donahue 의 저서 "Network Warrior" 의 몇 �
 - Maxim3. Lower costs, increase performance or capacity, or increase reliability.
 
 
-이 격언들은 네트워크 업무를 수행하면서 한번 더 생각하게 하고 여러 결정을 짓는 데 많은 도움이 되었다. `참고로 GAD는 태권도를 좋아하고 수련한다.` 
+이 격언들은 네트워크 업무를 수행하면서 한번 더 생각하게 하고 여러 결정을 짓는 데 많은 도움이 되었다.<br>`참고로 GAD는 태권도를 좋아하고 수련한다.` 
 
 
 #### Human Error 인적오류 
