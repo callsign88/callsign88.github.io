@@ -92,7 +92,7 @@ Type: 수학도서들의 집합이다.
 
 #### ❒ 페이크와 팩트  
 
-**The Irrational Ape**__________Why We Fall for Disinformation, Conspiracy Theory and Propaganda by `David Robert Grimes`
+**The Irrational Ape**<br>Why We Fall for Disinformation, Conspiracy Theory and Propaganda by `David Robert Grimes`<br>
 (`비합리적 유인원  우리가 허위정보 음모론 선전에 빠지는 이유`)
 
 [페이크와팩트`By Acanet`](http://www.acanet.co.kr/book/book_detail.php?book_id=848)
