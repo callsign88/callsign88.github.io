@@ -10,7 +10,7 @@ canonical_url: http://hyde.getpoole.com/2012/02/07/example-content/
 
 Connected 란 의미를 정확히 알지도 못한체 <a href="#">Network Machine</a>, 대규모 트래픽을  *Control&handling* 하게 되었다. CLI cmd 하나가 어떤 치명적인 영향을 미칠지도 모른체... 수많은 LAN Cable 하나가 원인을 알 수 없는 접촉불량과 손상으로 인해서 예기치 못한 장애가 발생했을 때, 어떤 것을 해야할 지 도 모른체 
 
-> 대규모 Server System 이전 및 Network Backbone Switch의 작업으로 인해서 단계별 Scenario 와 Protocol을 확정하고 할당된 영역의 작업을 진행하고 있을 때 장애가 발생했다. 
+> 대규모 Server System 이전 및 Network Backbone Switch의 작업으로 인해서 단계별 Scenario 와 작업 Protocol을 확정하고 할당된 영역의 작업을 진행하고 있을 때 장애가 발생했다. 
 
 서비스 장애와 **Network Fail** 순간적인 트래픽의 급증이 발생해서 모든 Alarm Sign이 미친 듯이 전송되고 손에서 진동이 멈추지 않았다. 하지만 어떤 것을 해야할지도 전혀 모른체 당황하고만 있었다.
 
@@ -23,7 +23,7 @@ Network 작업에 대한 Gary A. Donahue 의 저서 "Network Warrior" 의 몇 �
 - Maxim3. Lower costs, increase performance or capacity, or increase reliability.
 
 
-이 격언들은 네트워크 업무를 수행하면서 한번 더 생각하게 하고 여러 결정을 짓는 데 많은 도움이 되었다. 
+이 격언들은 네트워크 업무를 수행하면서 한번 더 생각하게 하고 여러 결정을 짓는 데 많은 도움이 되었다. `참고로 GAD는 태권도를 좋아하고 수련한다.` 
 
 
 #### Human Error 인적오류 
@@ -86,5 +86,4 @@ The more stressed you allow yourself to become, the longer the outage will last.
 7. How Not to Be a Computer Jerk  `컴덕이 되지는 말자! (컴덕만큼이나 존재의 이유가 필요하다)`
 
 
-
-결론은 지금까지 느낀 점들이다. 쉽지 않다.  
+ - 결론 지금까지 느낀 점은 결코 **쉽지 않다** 이다.   
