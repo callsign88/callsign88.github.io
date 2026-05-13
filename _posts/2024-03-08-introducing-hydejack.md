@@ -77,7 +77,7 @@ This includes:
 ~~~yml
 CPU: CPU Schedule 
 Disk: DISK I/O
-Network: https://www.cisco.com
+Network: BandWidth BottleNeck
 DB: RDB vs NoSql Replication Sharding Backup 
 ~~~
 
