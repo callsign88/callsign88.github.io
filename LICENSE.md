@@ -41,7 +41,7 @@ Type: 분류는 지극히 개인적인 기준이다.
 
 데이터센터 인프라 입문서<a href="https://www.g-world.co.kr/book/3208"></a><br>
 AmazonVPC 네트워킹원리와보안<a href="http://acornpub.co.kr/book/amazon-vpc"></a><br>
-*<sapn style="color:#f5e9ae;">`DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다.`</sapn>*
+ - *<sapn style="color:#f5e9ae;">DC와 VPC 이기종간에 Hybrid의 결합이다. 두고두고 계속 펼쳐보게 된다.</sapn>*
 
 #### ❒ Social ENG
 
@@ -68,7 +68,7 @@ Forecast :
 ***
 
 
-## IT Mathematics 
+## Mathematics 
 Type: 수학도서들의 집합이다. 
 
 
@@ -76,21 +76,11 @@ Type: 수학도서들의 집합이다.
 #### ❒ Math/Numbers
 ~~~
 『수학의쓸모』: 수학적 사고와 그 유용성에 관한 설명. 
-~~~
-~~~yml
-『경이로운 수 이야기』: 짧고 간단하지만 알찬 내용들로 가득하다. 자꾸 잊어버리는 게 함정
-~~~
-~~~yml
-『숫자가 만만해 지는 책』: 컴퓨터공학의 GURU Brian W Kernighan 교수께서 친히 집필하신  
-~~~
-~~~css
-『.처음읽는 .수학의 .세계사』: .일본작가 .특유의 .Detail함이 .있다. 
-~~~
-~~~css
-『.평생 .써먹는 .수학 .용어집』: .평생 .써먹어야 .할텐데...
-~~~
-~~~
-『세상의 모든공식』: 복잡한 세상을 풀어내는 52가지 공식이야기이다. 
+『경이로운 수 이야기』: 짧고 간단하지만 알찬 내용들로 가득하다. 자꾸 잊어버리는 게 함정.
+『숫자가 만만해 지는 책』: 컴퓨터공학의 GURU Brian W Kernighan 교수께서 친히 집필하신...
+『처음읽는 수학의 세계사』: 일본작가 특유의 Detail일이 있다.
+『평생 써먹는 수학용어집』: 평생 써먹어야 할텐데...
+『세상의 모든공식』: 복잡한 세상을 풀어내는 52가지 공식이야기이다.  
 ~~~
 
 
@@ -98,4 +88,12 @@ Type: 수학도서들의 집합이다.
 {:.message}
 
 
+## Book of the Current Book
 
+#### ❒ 페이크와 팩트  
+
+The Irrational Ape Why We Fall for Disinformation, Conspiracy Theory and Propaganda by `David Robert Grimes``
+
+[페이크와팩트](http://www.acanet.co.kr/book/book_detail.php?book_id=848)
+
+![출처Acanet](http://www.acanet.co.kr/upload/cover_image/8GJHJ2RAN783.jpg)
