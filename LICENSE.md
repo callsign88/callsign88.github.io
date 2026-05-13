@@ -32,6 +32,7 @@ Type: 분류는 지극히 개인적인 기준이다.
 
 >**이것이 레디스다** `Nosql의 기본기.. 정작가님 잘지내고 있죠?😀` 
 
+[네](https://blog.insightbook.co.kr/2015/11/11/%EA%B5%AC%EA%B8%80-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EA%B0%80-%EB%93%A4%EB%A0%A4%EC%A3%BC%EB%8A%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9%EA%B3%BC-%EC%9B%B9-%EC%84%B1%EB%8A%A5-%EC%B5%9C/)[H](https://www.oreilly.com/library/view/http-wanbyeog-gaideu/9788966261208/)[웹](http://www.hyejiwon.co.kr/?module=Goods&action=SiteGoodsSh&sMode=VIEW_FORM&sCurrSortCd=001004&iGoodsCd=268&CurrentPage=1&sSearchField=all&sSearchValue=%EB%94%94%EB%B2%84%EA%B9%85&sort=)[실](https://wikibook.co.kr/appliednsm/#review_by_publisher)[이](https://www.hanbit.co.kr/store/books/look.php?p_code=B7942124016)
 ~~~
 대부분 출간된지 꽤 오래된 책들이고 구석에 한묶음을 차지하고 있지만 부피만큼이나 도움이 되었던 책들이다.  
 ~~~
@@ -92,8 +93,8 @@ Type: 수학도서들의 집합이다.
 
 #### ❒ 페이크와 팩트  
 
-**The Irrational Ape**<br>Why We Fall for Disinformation, Conspiracy Theory and Propaganda by `David Robert Grimes`<br>
-(`비합리적 유인원  우리가 허위정보 음모론 선전에 빠지는 이유`)
+**The Irrational Ape**<br>Why We Fall for Disinformation, Conspiracy Theory and Propaganda `By David Robert Grimes`<br>
+(`비합리적 유인원. 우리가 허위정보 음모론 선전에 빠지는 이유`)
 
 [페이크와팩트`By Acanet`](http://www.acanet.co.kr/book/book_detail.php?book_id=848)
 
