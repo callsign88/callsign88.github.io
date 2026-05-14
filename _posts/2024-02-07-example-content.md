@@ -85,5 +85,5 @@ The more stressed you allow yourself to become, the longer the outage will last.
 6. Why Change Control Is Your Friend  `변화가 너의 친구인 이유 (지금이 영원할수는 없다)`
 7. How Not to Be a Computer Jerk  `컴덕이 되지는 말자! (컴덕만큼이나 존재의 이유가 필요하다)`
 
-
- - 결론 지금까지 느낀 점은 결코 **쉽지 않다** 이다.   
+<sapn style="color:#f5e9ae;">● 결론 지금까지 느낀 점은 결코 **쉽지 않다** 이다.</sapn>
+   

@@ -36,7 +36,7 @@ In addition 거기에 추가로 각종 작업기록과 업무 특성상 주로 �
 
 ### A.I 
 
-A.I 관련 도움이 될만한 각종 Site, 기록 들 그리고 Hades의 도구사용 및 Vibe Coding 관련.. AI와 대화한 각종 기록들... 연관된 API's 들 추가로 기술적 접근들이 필요한 사항들도 다소 기준이 무분별하지만 POST 추가했고 추가할 예정이다.  
+A.I 관련 도움이 될만한 각종 Site, 기록 들 그리고 Hades의 도구사용 및 [Vibe Coding](https://claude.com/product/claude-code?gclsrc=aw.ds&&utm_source=google&utm_campaign=23749529463&utm_medium=cpc&utm_content=805291882302&utm_term=vibe%20coding&targetid=kwd-2469412748797&gad_source=1&gad_campaignid=23749529463&gbraid=0AAAAA99jmqtBQ1FBV1HOy9lm370aB6vJz&gclid=CjwKCAjwwpDQBhAuEiwAa-4Wo6ZhdWXhJ_S-dRxX8OsJfN1UU6WDvpOvFBHjHcOm1P_rCn7k4eByJBoCTIcQAvD_BwE) 관련.. AI와 대화한 각종 기록들... 연관된 API's 들 추가로 기술적 접근들이 필요한 사항들도 다소 기준이 무분별하지만 POST 추가했고 추가할 예정이다.  
 
 ### Etc 
 
