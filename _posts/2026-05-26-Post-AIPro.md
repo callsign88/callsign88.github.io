@@ -10,7 +10,8 @@ canonical_url: http://github.blog/
 
 
 
-<a href="https://io.google/2026/" style="color:#f5e9ae;">Google I/O '26</a> Google I/O 2026 MainPage.
+<a href="https://io.google/2026/" style="color:#f5e9ae;">Google I/O '26</a> Google I/O 2026 Explore
+
 
 
 
@@ -18,10 +19,10 @@ canonical_url: http://github.blog/
 
 [Watch keynote recaps](https://www.youtube.com/playlist?list=PLOU2XLYxmsILVF9qmspC4i4R0t3o64HSx) 
 
-**NOTE**: Google I/O '26 Keynote `한국어자막`도 추가로 첨부한다.  
+**NOTE**: Google I/O '26 Keynote `한국어자막`도 같이 추가로 첨부한다.  
 {:.message}
 <https://www.youtube.com/watch?v=wYSncx9zLIU>
-
+<https://io.google/2026/explore/google-keynote-1>
 
 
 ### Keynote Points & Milestone `by Google Gemini`
@@ -71,22 +72,25 @@ AI 크레딧은 1년 동안 유효합니다.
           크레딧 02,500개  ₩036,000  
           크레딧 05,000개  ₩072,500 
           크레딧 20,000개  ₩290,000 
-
+                                          (-_-);;;;
 
 **Google One으로 AI 크레딧 관리하기**<br>
 <https://support.google.com/googleone/answer/16287445><br>
 
+~~~yml
+
+~~~
 
 <sapn style="color:#f2d16b;">과연 누가 이걸 다 **정확하게**   확인하고 사용할 수 있을까 ? </sapn>
 
 친절하게 설명은 되어있다 
 
-Google AI 구독자의 Gemini 앱 한도 및 업그레이드
-<https://support.google.com/gemini/answer/16275805?hl=ko>
+Google AI 구독자의 Gemini 앱 한도 및 업그레이드[↗]<https://support.google.com/gemini/answer/16275805?hl=ko>
 
 
-[I/O 2026] 구글 I/O 2026에서 새롭게 선보인 구글 AI 구독의 모든 것<br>
-<https://blog.google/intl/ko-kr/company-news/technology/google-ai-subscriptions-kr/>
+[I/O 2026] 구글 I/O 2026에서 새롭게 선보인 구글 AI 구독의 모든 것[↗]<https://blog.google/intl/ko-kr/company-news/technology/google-ai-subscriptions-kr/><br>
 
-결론은 1000점의 Credit이 없어지는 대신 **기본 사용량 한도** 내에서 자유롭게 사용하고 모자라면 추가로 구매하는 방식이라고 `Gemini`가 친절하게 안내해주었다!😕
+
+결론은 1000점의 Credit이 없어지는 대신 **기본 사용량 한도** 내에서 자유롭게 사용하고<br> 
+모자라면 추가로 구매하는 방식이라고 `Gemini`가 친절하게 안내해주었다!😕
 
