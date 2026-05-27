@@ -74,7 +74,8 @@ AI 크레딧은 1년 동안 유효합니다.
           크레딧 20,000개  ₩290,000 
                                              (-_-);;;;
 
-**Google One으로 AI 크레딧 관리하기**<br><https://support.google.com/googleone/answer/16287445><br>
+**Google One으로 AI 크레딧 관리하기**<br>
+<https://support.google.com/googleone/answer/16287445><br>
 <br>
 <sapn style="color:#f2d16b;">과연 누가 이걸 다 **정확하게**   확인하고 사용할 수 있을까 ? </sapn>
 <br>
