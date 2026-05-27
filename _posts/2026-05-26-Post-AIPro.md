@@ -33,10 +33,13 @@ canonical_url: http://github.blog/
 >
 >
 > 3. 소비자 및 업무용 에이전트 서비스<br>
->
+> - Gemini Spark
+> - Search Agents & Generative UI
+> - 하드웨어 파트너십 (Intelligent Eyewear)
 > 4. 책임감 있는 AI 및 과학을 위한 AI<br>
 > - Synth ID 및 투명성
 > - Gemini for Science
+
 
 
 
