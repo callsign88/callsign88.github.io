@@ -74,8 +74,19 @@ AI 크레딧은 1년 동안 유효합니다.
 
 
 **Google One으로 AI 크레딧 관리하기**<br>
-<https://support.google.com/googleone/answer/16287445>
+<https://support.google.com/googleone/answer/16287445><br>
 
 
-<sapn style="color:#f2d16b;">과연 누가 이걸 다 **정확**하게 **확인**해서 사용할 수 있을까 ? </sapn>
+<sapn style="color:#f2d16b;">과연 누가 이걸 다 **정확**하게  **확인**하고 사용할 수 있을까 ? </sapn>
+
+친절하게 설명은 되어있다 
+
+Google AI 구독자의 Gemini 앱 한도 및 업그레이드
+<https://support.google.com/gemini/answer/16275805?hl=ko>
+
+
+[I/O 2026] 구글 I/O 2026에서 새롭게 선보인 구글 AI 구독의 모든 것
+<https://blog.google/intl/ko-kr/company-news/technology/google-ai-subscriptions-kr/>
+
+
 
