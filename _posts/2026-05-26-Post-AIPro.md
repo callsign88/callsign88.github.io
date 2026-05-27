@@ -30,7 +30,9 @@ canonical_url: http://github.blog/
 > 1. 차세대 모델 라인업 및 기술 혁신<br>
 >
 > 2. 개발자 생태계 및 에이전트 인프라<br>
->
+> - 자율적 OS 빌드 테스트
+> - Vibe Coding 및 통합
+> - 프로토콜 및 표준화
 >
 > 3. 소비자 및 업무용 에이전트 서비스<br>
 > - Gemini Spark
