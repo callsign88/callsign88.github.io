@@ -45,7 +45,7 @@ canonical_url: http://github.blog/
 > - Gemini for Science: Weather Next, Alpha Earth Foundations, Isomorphic Labs 과학연구 
 
 ~~~yml
-`추가로 사용하는 구독자들에게 모두 메일이 송부되었는데 다음과 같은 메일이 전달되었다.` 
+추가로 사용하는 구독자들에게 모두 메일이 송부되었는데 다음과 같은 메일이 전달되었다.
 ~~~
 
 Google AI Pro 구독에 포함된 사용량 한도가 변경됨을 알려드립니다. 
@@ -59,17 +59,18 @@ Google AI Pro 구독에 포함된 사용량 한도가 변경됨을 알려드립�
       
 그래서 클릭했다. 
 
-**AI 크레딧 받기** 
-AI 크레딧을 사용하면 사용량 한도에 도달한 후에도 AI 모델과 기능을 사용할 수 있습니다. AI 크레딧은 1년 동안 유효합니다. 
-          [AI 크레딧의 작동 방식 자세히 알아보기](https://support.google.com/googleone/answer/16287445?visit_id=639154747882158736-3480269409&p=g1_credit_management&rd=1)
+**AI 크레딧 받기**<br> 
+AI 크레딧을 사용하면 사용량 한도에 도달한 후에도 AI 모델과 기능을 사용할 수 있습니다.<br>
+AI 크레딧은 1년 동안 유효합니다. 
+          [AI 크레딧의 작동 방식 자세히 알아보기](https://support.google.com/googleone/answer/16287445?visit_id=639154747882158736-3480269409&p=g1_credit_management&rd=1)<br>
+
           크레딧 02,500개  ₩036,000  
           크레딧 05,000개  ₩072,500 
           크레딧 20,000개  ₩290,000 
 
-**Google One으로 AI 크레딧 관리하기**
+
+**Google One으로 AI 크레딧 관리하기**<br>
 <https://support.google.com/googleone/answer/16287445>
 
 
-~~~yml
 
-~~~
