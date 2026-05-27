@@ -29,9 +29,6 @@ canonical_url: http://github.blog/
 
 > 1. 차세대 모델 라인업 및 기술 혁신<br>
 >
-> - Gemini 3.5 Flash 출시
-> - Gemini Omni
-> - 인프라 투자 (8세대 TPU)
 > 2. 개발자 생태계 및 에이전트 인프라<br>
 > - 자율적 OS 빌드 테스트
 > - Vibe Coding 및 통합
