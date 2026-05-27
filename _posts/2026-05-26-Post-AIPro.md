@@ -28,20 +28,21 @@ canonical_url: http://github.blog/
 
 
 > 1. 차세대 모델 라인업 및 기술 혁신<br>
-> - 인프라 투자 (8세대 TPU):AI 컴퓨팅 수요 대응을 위해 연간 CaPex 투자 확대  
-> - Gemini 3.5 Flash 출시:frontier급 지능과 압도적인 처리 속도를 결합한 모델
-> - Gemini Omni:입력된 모든 데이터를 기반으로 결과물을 생성하는 World Model
+> - 인프라 투자 (8세대 TPU): AI 컴퓨팅 수요 대응을 위해 연간 CaPex 투자 확대  
+> - Gemini 3.5 Flash 출시: frontier급 지능과 압도적인 처리 속도를 결합한 모델
+> - Gemini Omni: 입력된 모든 데이터를 기반으로 결과물을 생성하는 World Model
 > 2. 개발자 생태계 및 에이전트 인프라<br>
-> - 자율적 OS 빌드 테스트
-> - Vibe Coding 및 통합
-> - 프로토콜 및 표준화
+> - Anti-gravity 2.0 (에이전트 퍼스트 IDE): 스스로 행동하는 Agentic Coding 중심의 독립형 Desktop Application 개편
+> - 자율적 OS 빌드 테스트: Gemini 3.5 Flash와 Anti-gravity 활용 OS 설계, 코딩, 테스트까지 완료하는 성능 입증
+> - Vibe Coding 및 통합: Android, Firebase, Google AI Studio와의 Native 통합 및 CLI/SDK를 지원
+> - 프로토콜 및 표준화: 새로운 오픈소스 표준인 UCP(Universal Commerce Protocol) 공동개발 확장 
 > 3. 소비자 및 업무용 에이전트 서비스<br>
-> - Gemini Spark
-> - Search Agents & Generative UI
-> - 하드웨어 파트너십 (Intelligent Eyewear)
+> - Gemini Spark: 연중무휴 24시간 백그라운드에서 지원하는 개인용 AI Agent
+> - Search Agents & Generative UI: 구글 검색창이 25년 만에 AI 중심으로 전면 재디자인
+> - 하드웨어 파트너십 (Intelligent Eyewear): 삼성, 젠틀몬스터, 와비파커와의 협업 Audio Glasss 출시예정
 > 4. 책임감 있는 AI 및 과학을 위한 AI<br>
-> - Synth ID 및 투명성
-> - Gemini for Science
+> - Synth ID 및 투명성: Synth ID 확대 적용 'AI 생성 여부'를 바로 검증할 수 있는 콘텐츠 자격 증명 기능 추가
+> - Gemini for Science: Weather Next, Alpha Earth Foundations, Isomorphic Labs 과학연구 
 
 
 
