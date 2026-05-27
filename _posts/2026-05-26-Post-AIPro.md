@@ -21,7 +21,7 @@ canonical_url: http://github.blog/
 
 **NOTE**: Google I/O '26 Keynote `한국어자막`도 같이 추가로 첨부한다.  
 {:.message}
-<https://www.youtube.com/watch?v=wYSncx9zLIU>
+<https://www.youtube.com/watch?v=wYSncx9zLIU><br>
 <https://io.google/2026/explore/google-keynote-1>
 
 
@@ -75,18 +75,17 @@ AI 크레딧은 1년 동안 유효합니다.
                                              (-_-);;;;
 
 **Google One으로 AI 크레딧 관리하기**<br>
-<https://support.google.com/googleone/answer/16287445><br>
-~~~yml
-
-~~~
+`<https://support.google.com/googleone/answer/16287445>`<br>
+<br>
 <sapn style="color:#f2d16b;">과연 누가 이걸 다 **정확하게**   확인하고 사용할 수 있을까 ? </sapn>
 <br>
-친절하게 설명은 되어있다 
 
-`Google AI 구독자의 Gemini 앱 한도 및 업그레이드`[↗](https://support.google.com/gemini/answer/16275805?hl=ko)`
+* 친절하게 설명은 되어있다 
+
+`Google AI 구독자의 Gemini 앱 한도 및 업그레이드`[↗](https://support.google.com/gemini/answer/16275805?hl=ko)
 
 
-`[I/O 2026] 구글 I/O 2026에서 새롭게 선보인 구글 AI 구독의 모든 것`[↗](https://blog.google/intl/ko-kr/company-news/technology/google-ai-subscriptions-kr/)`
+`[I/O 2026] 구글 I/O 2026에서 새롭게 선보인 구글 AI 구독의 모든 것`[↗](https://blog.google/intl/ko-kr/company-news/technology/google-ai-subscriptions-kr/)
 <br>
 
 결론은 1000점의 Credit이 없어지는 대신 **기본 사용량 한도** 내에서 자유롭게 사용하고<br> 모자라면 추가로 구매하는 방식이라고 `Gemini`가 친절하게 안내해주었다! 😕
