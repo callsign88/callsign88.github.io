@@ -28,9 +28,9 @@ canonical_url: http://github.blog/
 
 
 > 1. 차세대 모델 라인업 및 기술 혁신<br>
-> - 인프라 투자 (8세대 TPU)
-> - Gemini 3.5 Flash 출시
-> - Gemini Omni
+> - 인프라 투자 (8세대 TPU):AI 컴퓨팅 수요 대응을 위해 연간 CaPex 투자 확대  
+> - Gemini 3.5 Flash 출시:frontier급 지능과 압도적인 처리 속도를 결합한 모델
+> - Gemini Omni:입력된 모든 데이터를 기반으로 결과물을 생성하는 World Model
 > 2. 개발자 생태계 및 에이전트 인프라<br>
 > - 자율적 OS 빌드 테스트
 > - Vibe Coding 및 통합
